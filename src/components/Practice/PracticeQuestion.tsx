@@ -8,7 +8,6 @@ import {
   Infinity, 
   Target,
   Star,
-  Trophy,
   Zap,
   BookOpen,
   Calculator,
@@ -599,4 +598,4 @@ export function PracticeQuestion() {
   );
 }
 
-export { PracticeQuestion }
+// Removed redundant named export for PracticeQuestion
