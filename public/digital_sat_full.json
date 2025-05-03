@@ -1,0 +1,1466 @@
+[
+  {
+    "id": "RW-M1-Q01",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 1,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The nbiki wgshw was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "redundant",
+      "D": "controversial"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M1-Q02",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 2,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The ixtnj bnfzu was considered ___ by experts.",
+    "choices": {
+      "A": "beneficial",
+      "B": "advantageous",
+      "C": "redundant",
+      "D": "controversial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M1-Q03",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 3,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The hfvcs cqrah was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "beneficial",
+      "C": "advantageous",
+      "D": "redundant"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "RW-M1-Q04",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 4,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The tfikk zrjzu was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "redundant",
+      "C": "beneficial",
+      "D": "controversial"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M1-Q05",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 5,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The cxaje gpezw was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "controversial",
+      "C": "beneficial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M1-Q06",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 6,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The wkiul ouxqb was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M1-Q07",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 7,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The bdthg pfxty was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "redundant",
+      "C": "controversial",
+      "D": "beneficial"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M1-Q08",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 8,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The qiwer injjs was considered ___ by experts.",
+    "choices": {
+      "A": "beneficial",
+      "B": "controversial",
+      "C": "advantageous",
+      "D": "redundant"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "RW-M1-Q09",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 9,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The bccqu rnvwp was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "advantageous",
+      "C": "redundant",
+      "D": "beneficial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M1-Q10",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 10,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The xasff uddun was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M1-Q11",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 11,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The xtvqa dqycr was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "advantageous",
+      "C": "redundant",
+      "D": "beneficial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M1-Q12",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 12,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The fqfpx jhlxn was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "advantageous",
+      "C": "redundant",
+      "D": "beneficial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M1-Q13",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 13,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The uqlef aopug was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "advantageous",
+      "C": "redundant",
+      "D": "beneficial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M1-Q14",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 14,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The lpvxs fygir was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "redundant",
+      "D": "controversial"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M1-Q15",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 15,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The oalwk nkypx was considered ___ by experts.",
+    "choices": {
+      "A": "redundant",
+      "B": "beneficial",
+      "C": "controversial",
+      "D": "advantageous"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "RW-M1-Q16",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 16,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The erxhx ryqyz was considered ___ by experts.",
+    "choices": {
+      "A": "redundant",
+      "B": "beneficial",
+      "C": "controversial",
+      "D": "advantageous"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "RW-M1-Q17",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 17,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The efyhe lnfjv was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "redundant",
+      "C": "beneficial",
+      "D": "advantageous"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "RW-M1-Q18",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 18,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The nykbd nxtbl was considered ___ by experts.",
+    "choices": {
+      "A": "beneficial",
+      "B": "controversial",
+      "C": "redundant",
+      "D": "advantageous"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "RW-M1-Q19",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 19,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The kpkxs wgtwh was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "redundant",
+      "D": "controversial"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M1-Q20",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 20,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The iqefq tezkl was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "redundant",
+      "C": "beneficial",
+      "D": "advantageous"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "RW-M1-Q21",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 21,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The txoni yvhdp was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "beneficial",
+      "C": "advantageous",
+      "D": "redundant"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "RW-M1-Q22",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 22,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The whedv qkjhf was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "advantageous",
+      "C": "redundant",
+      "D": "beneficial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M1-Q23",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 23,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The xbrrx yziyx was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "redundant",
+      "C": "controversial",
+      "D": "beneficial"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M1-Q24",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 24,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The lvkju iohej was considered ___ by experts.",
+    "choices": {
+      "A": "redundant",
+      "B": "advantageous",
+      "C": "beneficial",
+      "D": "controversial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M1-Q25",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 25,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The qyyyk phrvl was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M1-Q26",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 26,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The zlrtv rpnis was considered ___ by experts.",
+    "choices": {
+      "A": "beneficial",
+      "B": "controversial",
+      "C": "advantageous",
+      "D": "redundant"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "RW-M1-Q27",
+    "section": "Reading and Writing",
+    "module": 1,
+    "question_number": 27,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The pqouv uvqtr was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "beneficial",
+      "C": "redundant",
+      "D": "advantageous"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "RW-M2-Q01",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 1,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The recqr ckusv was considered ___ by experts.",
+    "choices": {
+      "A": "beneficial",
+      "B": "advantageous",
+      "C": "redundant",
+      "D": "controversial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M2-Q02",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 2,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The nimzi shkqz was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q03",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 3,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The ljyqf hclca was considered ___ by experts.",
+    "choices": {
+      "A": "redundant",
+      "B": "advantageous",
+      "C": "beneficial",
+      "D": "controversial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M2-Q04",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 4,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The qwnwr kcxrf was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "redundant",
+      "D": "controversial"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q05",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 5,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The mmsyf jrigr was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "advantageous",
+      "C": "redundant",
+      "D": "beneficial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M2-Q06",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 6,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The ehbpb pzhoe was considered ___ by experts.",
+    "choices": {
+      "A": "redundant",
+      "B": "controversial",
+      "C": "advantageous",
+      "D": "beneficial"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "RW-M2-Q07",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 7,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The tpuxf gbphi was considered ___ by experts.",
+    "choices": {
+      "A": "redundant",
+      "B": "beneficial",
+      "C": "advantageous",
+      "D": "controversial"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "RW-M2-Q08",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 8,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The rzces yexcw was considered ___ by experts.",
+    "choices": {
+      "A": "beneficial",
+      "B": "redundant",
+      "C": "controversial",
+      "D": "advantageous"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "RW-M2-Q09",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 9,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The dntmy dytap was considered ___ by experts.",
+    "choices": {
+      "A": "beneficial",
+      "B": "advantageous",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M2-Q10",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 10,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The dmigt lbemj was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "controversial",
+      "C": "beneficial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q11",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 11,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The wocbu brmfz was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q12",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 12,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The otzgc udoca was considered ___ by experts.",
+    "choices": {
+      "A": "beneficial",
+      "B": "advantageous",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M2-Q13",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 13,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The rsdti aozod was considered ___ by experts.",
+    "choices": {
+      "A": "redundant",
+      "B": "beneficial",
+      "C": "advantageous",
+      "D": "controversial"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "RW-M2-Q14",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 14,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The qlbzv ezavw was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "beneficial",
+      "C": "advantageous",
+      "D": "redundant"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "RW-M2-Q15",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 15,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The noues sknvy was considered ___ by experts.",
+    "choices": {
+      "A": "redundant",
+      "B": "advantageous",
+      "C": "controversial",
+      "D": "beneficial"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M2-Q16",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 16,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The srzjt yiska was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "redundant",
+      "C": "beneficial",
+      "D": "advantageous"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "RW-M2-Q17",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 17,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The rymfu zgrnh was considered ___ by experts.",
+    "choices": {
+      "A": "beneficial",
+      "B": "advantageous",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M2-Q18",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 18,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The stjxr ysiyt was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "controversial",
+      "C": "beneficial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q19",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 19,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The uacvf pncpe was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "redundant",
+      "C": "controversial",
+      "D": "beneficial"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q20",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 20,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The nnrvn rxldp was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q21",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 21,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The gufme yrgob was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "controversial",
+      "C": "beneficial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q22",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 22,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The qzfzv cakbs was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "redundant",
+      "C": "beneficial",
+      "D": "controversial"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q23",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 23,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The apsst qbtib was considered ___ by experts.",
+    "choices": {
+      "A": "redundant",
+      "B": "beneficial",
+      "C": "advantageous",
+      "D": "controversial"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "RW-M2-Q24",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 24,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The xonqq hpagj was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "redundant",
+      "C": "beneficial",
+      "D": "controversial"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q25",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 25,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The mfuuy cgpww was considered ___ by experts.",
+    "choices": {
+      "A": "beneficial",
+      "B": "advantageous",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "RW-M2-Q26",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 26,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The ztzep xqxwe was considered ___ by experts.",
+    "choices": {
+      "A": "advantageous",
+      "B": "beneficial",
+      "C": "controversial",
+      "D": "redundant"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "RW-M2-Q27",
+    "section": "Reading and Writing",
+    "module": 2,
+    "question_number": 27,
+    "type": "MC",
+    "category": "Craft and Structure",
+    "stimulus": "The orptv ukfal was considered ___ by experts.",
+    "choices": {
+      "A": "controversial",
+      "B": "beneficial",
+      "C": "advantageous",
+      "D": "redundant"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "M-M1-Q01",
+    "section": "Math",
+    "module": 1,
+    "question_number": 1,
+    "type": "MC",
+    "stimulus": "What is 20+20?",
+    "choices": {
+      "A": "39",
+      "B": "41",
+      "C": "40",
+      "D": "42"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "M-M1-Q02",
+    "section": "Math",
+    "module": 1,
+    "question_number": 2,
+    "type": "MC",
+    "stimulus": "What is 15+20?",
+    "choices": {
+      "A": "37",
+      "B": "36",
+      "C": "35",
+      "D": "34"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "M-M1-Q03",
+    "section": "Math",
+    "module": 1,
+    "question_number": 3,
+    "type": "MC",
+    "stimulus": "What is 13+1?",
+    "choices": {
+      "A": "15",
+      "B": "13",
+      "C": "16",
+      "D": "14"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "M-M1-Q04",
+    "section": "Math",
+    "module": 1,
+    "question_number": 4,
+    "type": "MC",
+    "stimulus": "What is 4+14?",
+    "choices": {
+      "A": "20",
+      "B": "17",
+      "C": "18",
+      "D": "19"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "M-M1-Q05",
+    "section": "Math",
+    "module": 1,
+    "question_number": 5,
+    "type": "MC",
+    "stimulus": "What is 15+10?",
+    "choices": {
+      "A": "27",
+      "B": "25",
+      "C": "24",
+      "D": "26"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "M-M1-Q06",
+    "section": "Math",
+    "module": 1,
+    "question_number": 6,
+    "type": "MC",
+    "stimulus": "What is 2+20?",
+    "choices": {
+      "A": "21",
+      "B": "24",
+      "C": "23",
+      "D": "22"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "M-M1-Q07",
+    "section": "Math",
+    "module": 1,
+    "question_number": 7,
+    "type": "MC",
+    "stimulus": "What is 14+16?",
+    "choices": {
+      "A": "32",
+      "B": "30",
+      "C": "29",
+      "D": "31"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "M-M1-Q08",
+    "section": "Math",
+    "module": 1,
+    "question_number": 8,
+    "type": "MC",
+    "stimulus": "What is 6+16?",
+    "choices": {
+      "A": "22",
+      "B": "21",
+      "C": "24",
+      "D": "23"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "M-M1-Q09",
+    "section": "Math",
+    "module": 1,
+    "question_number": 9,
+    "type": "MC",
+    "stimulus": "What is 7+6?",
+    "choices": {
+      "A": "12",
+      "B": "14",
+      "C": "13",
+      "D": "15"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "M-M1-Q10",
+    "section": "Math",
+    "module": 1,
+    "question_number": 10,
+    "type": "MC",
+    "stimulus": "What is 9+16?",
+    "choices": {
+      "A": "25",
+      "B": "26",
+      "C": "27",
+      "D": "24"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "M-M1-Q11",
+    "section": "Math",
+    "module": 1,
+    "question_number": 11,
+    "type": "MC",
+    "stimulus": "What is 1+3?",
+    "choices": {
+      "A": "6",
+      "B": "4",
+      "C": "5",
+      "D": "3"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "M-M1-Q12",
+    "section": "Math",
+    "module": 1,
+    "question_number": 12,
+    "type": "MC",
+    "stimulus": "What is 5+20?",
+    "choices": {
+      "A": "26",
+      "B": "25",
+      "C": "27",
+      "D": "24"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "M-M1-Q13",
+    "section": "Math",
+    "module": 1,
+    "question_number": 13,
+    "type": "MC",
+    "stimulus": "What is 10+19?",
+    "choices": {
+      "A": "30",
+      "B": "28",
+      "C": "31",
+      "D": "29"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "M-M1-Q14",
+    "section": "Math",
+    "module": 1,
+    "question_number": 14,
+    "type": "MC",
+    "stimulus": "What is 11+2?",
+    "choices": {
+      "A": "14",
+      "B": "13",
+      "C": "15",
+      "D": "12"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "M-M1-Q15",
+    "section": "Math",
+    "module": 1,
+    "question_number": 15,
+    "type": "MC",
+    "stimulus": "What is 8+19?",
+    "choices": {
+      "A": "29",
+      "B": "26",
+      "C": "28",
+      "D": "27"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "M-M1-Q16",
+    "section": "Math",
+    "module": 1,
+    "question_number": 16,
+    "type": "MC",
+    "stimulus": "What is 4+7?",
+    "choices": {
+      "A": "12",
+      "B": "10",
+      "C": "13",
+      "D": "11"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "M-M1-Q17",
+    "section": "Math",
+    "module": 1,
+    "question_number": 17,
+    "type": "MC",
+    "stimulus": "What is 3+14?",
+    "choices": {
+      "A": "18",
+      "B": "19",
+      "C": "16",
+      "D": "17"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "M-M1-Q18",
+    "section": "Math",
+    "module": 1,
+    "question_number": 18,
+    "type": "SPR",
+    "stimulus": "What is the square of 5?",
+    "answer": "25"
+  },
+  {
+    "id": "M-M1-Q19",
+    "section": "Math",
+    "module": 1,
+    "question_number": 19,
+    "type": "SPR",
+    "stimulus": "What is the square of 8?",
+    "answer": "64"
+  },
+  {
+    "id": "M-M1-Q20",
+    "section": "Math",
+    "module": 1,
+    "question_number": 20,
+    "type": "SPR",
+    "stimulus": "What is the square of 2?",
+    "answer": "4"
+  },
+  {
+    "id": "M-M1-Q21",
+    "section": "Math",
+    "module": 1,
+    "question_number": 21,
+    "type": "SPR",
+    "stimulus": "What is the square of 2?",
+    "answer": "4"
+  },
+  {
+    "id": "M-M1-Q22",
+    "section": "Math",
+    "module": 1,
+    "question_number": 22,
+    "type": "SPR",
+    "stimulus": "What is the square of 4?",
+    "answer": "16"
+  },
+  {
+    "id": "M-M2-Q01",
+    "section": "Math",
+    "module": 2,
+    "question_number": 1,
+    "type": "MC",
+    "stimulus": "What is 10+18?",
+    "choices": {
+      "A": "28",
+      "B": "30",
+      "C": "29",
+      "D": "27"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "M-M2-Q02",
+    "section": "Math",
+    "module": 2,
+    "question_number": 2,
+    "type": "MC",
+    "stimulus": "What is 8+14?",
+    "choices": {
+      "A": "22",
+      "B": "24",
+      "C": "23",
+      "D": "21"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "M-M2-Q03",
+    "section": "Math",
+    "module": 2,
+    "question_number": 3,
+    "type": "MC",
+    "stimulus": "What is 16+9?",
+    "choices": {
+      "A": "25",
+      "B": "24",
+      "C": "27",
+      "D": "26"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "M-M2-Q04",
+    "section": "Math",
+    "module": 2,
+    "question_number": 4,
+    "type": "MC",
+    "stimulus": "What is 8+19?",
+    "choices": {
+      "A": "29",
+      "B": "28",
+      "C": "26",
+      "D": "27"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "M-M2-Q05",
+    "section": "Math",
+    "module": 2,
+    "question_number": 5,
+    "type": "MC",
+    "stimulus": "What is 6+16?",
+    "choices": {
+      "A": "24",
+      "B": "21",
+      "C": "23",
+      "D": "22"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "M-M2-Q06",
+    "section": "Math",
+    "module": 2,
+    "question_number": 6,
+    "type": "MC",
+    "stimulus": "What is 2+7?",
+    "choices": {
+      "A": "9",
+      "B": "11",
+      "C": "10",
+      "D": "8"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "M-M2-Q07",
+    "section": "Math",
+    "module": 2,
+    "question_number": 7,
+    "type": "MC",
+    "stimulus": "What is 20+1?",
+    "choices": {
+      "A": "21",
+      "B": "20",
+      "C": "22",
+      "D": "23"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "M-M2-Q08",
+    "section": "Math",
+    "module": 2,
+    "question_number": 8,
+    "type": "MC",
+    "stimulus": "What is 4+1?",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "4"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "M-M2-Q09",
+    "section": "Math",
+    "module": 2,
+    "question_number": 9,
+    "type": "MC",
+    "stimulus": "What is 12+17?",
+    "choices": {
+      "A": "30",
+      "B": "28",
+      "C": "29",
+      "D": "31"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "M-M2-Q10",
+    "section": "Math",
+    "module": 2,
+    "question_number": 10,
+    "type": "MC",
+    "stimulus": "What is 5+16?",
+    "choices": {
+      "A": "20",
+      "B": "23",
+      "C": "21",
+      "D": "22"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "M-M2-Q11",
+    "section": "Math",
+    "module": 2,
+    "question_number": 11,
+    "type": "MC",
+    "stimulus": "What is 11+16?",
+    "choices": {
+      "A": "26",
+      "B": "28",
+      "C": "29",
+      "D": "27"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "M-M2-Q12",
+    "section": "Math",
+    "module": 2,
+    "question_number": 12,
+    "type": "MC",
+    "stimulus": "What is 5+20?",
+    "choices": {
+      "A": "25",
+      "B": "27",
+      "C": "24",
+      "D": "26"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "M-M2-Q13",
+    "section": "Math",
+    "module": 2,
+    "question_number": 13,
+    "type": "MC",
+    "stimulus": "What is 19+14?",
+    "choices": {
+      "A": "32",
+      "B": "34",
+      "C": "35",
+      "D": "33"
+    },
+    "correct": "D"
+  },
+  {
+    "id": "M-M2-Q14",
+    "section": "Math",
+    "module": 2,
+    "question_number": 14,
+    "type": "MC",
+    "stimulus": "What is 12+17?",
+    "choices": {
+      "A": "28",
+      "B": "29",
+      "C": "30",
+      "D": "31"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "M-M2-Q15",
+    "section": "Math",
+    "module": 2,
+    "question_number": 15,
+    "type": "MC",
+    "stimulus": "What is 14+18?",
+    "choices": {
+      "A": "34",
+      "B": "32",
+      "C": "31",
+      "D": "33"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "M-M2-Q16",
+    "section": "Math",
+    "module": 2,
+    "question_number": 16,
+    "type": "MC",
+    "stimulus": "What is 1+4?",
+    "choices": {
+      "A": "4",
+      "B": "7",
+      "C": "5",
+      "D": "6"
+    },
+    "correct": "C"
+  },
+  {
+    "id": "M-M2-Q17",
+    "section": "Math",
+    "module": 2,
+    "question_number": 17,
+    "type": "MC",
+    "stimulus": "What is 20+12?",
+    "choices": {
+      "A": "33",
+      "B": "32",
+      "C": "34",
+      "D": "31"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "M-M2-Q18",
+    "section": "Math",
+    "module": 2,
+    "question_number": 18,
+    "type": "SPR",
+    "stimulus": "What is the square of 5?",
+    "answer": "25"
+  },
+  {
+    "id": "M-M2-Q19",
+    "section": "Math",
+    "module": 2,
+    "question_number": 19,
+    "type": "SPR",
+    "stimulus": "What is the square of 6?",
+    "answer": "36"
+  },
+  {
+    "id": "M-M2-Q20",
+    "section": "Math",
+    "module": 2,
+    "question_number": 20,
+    "type": "SPR",
+    "stimulus": "What is the square of 9?",
+    "answer": "81"
+  },
+  {
+    "id": "M-M2-Q21",
+    "section": "Math",
+    "module": 2,
+    "question_number": 21,
+    "type": "SPR",
+    "stimulus": "What is the square of 4?",
+    "answer": "16"
+  },
+  {
+    "id": "M-M2-Q22",
+    "section": "Math",
+    "module": 2,
+    "question_number": 22,
+    "type": "SPR",
+    "stimulus": "What is the square of 2?",
+    "answer": "4"
+  }
+]

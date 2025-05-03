@@ -14,6 +14,7 @@ import {
   PenTool
 } from 'lucide-react';
 import { useCourseStore } from '../../store/courseStore';
+import { useInfiniteQuestions, FormattedQuestion } from '../../lib/practiceService';
 
 type QuestionType = 'math' | 'reading' | 'writing';
 type AnswerChoice = 'A' | 'B' | 'C' | 'D';
@@ -51,7 +52,7 @@ const practiceModes: PracticeMode[] = [
   {
     id: 'infinite',
     name: 'Infinite Mode',
-    description: 'Endless practice with AI-generated questions',
+    description: 'Endless practice with real SAT questions',
     icon: Infinity
   }
 ];
@@ -426,8 +427,39 @@ export function PracticeQuestion() {
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [isInfiniteMode, setIsInfiniteMode] = useState(false);
+  
+  // New state for infinite mode questions
+  const [currentInfiniteQuestion, setCurrentInfiniteQuestion] = useState<FormattedQuestion | null>(null);
+  const { loading, error, getNextQuestion } = useInfiniteQuestions();
 
-  const currentQuestion = sampleQuestions[currentQuestionIndex];
+  // Get the current question based on mode
+  const currentQuestion = isInfiniteMode && currentInfiniteQuestion 
+    ? {
+        id: parseInt(currentInfiniteQuestion.id.split('-').pop() || '0'),
+        type: currentInfiniteQuestion.type,
+        content: currentInfiniteQuestion.content,
+        choices: currentInfiniteQuestion.choices as Record<AnswerChoice, string>,
+        correctAnswer: currentInfiniteQuestion.correctAnswer as AnswerChoice,
+        explanation: currentInfiniteQuestion.explanation,
+        topic: currentInfiniteQuestion.category
+      } 
+    : sampleQuestions[currentQuestionIndex];
+
+  // Function to load a new infinite mode question
+  const loadNextInfiniteQuestion = () => {
+    const selectedType = selectedSubjects.length > 0 ? selectedSubjects[0] : undefined;
+    const nextQuestion = getNextQuestion(selectedType);
+    if (nextQuestion) {
+      setCurrentInfiniteQuestion(nextQuestion);
+    }
+  };
+
+  useEffect(() => {
+    // Load the first infinite mode question when entering that mode
+    if (isInfiniteMode && !currentInfiniteQuestion && !loading) {
+      loadNextInfiniteQuestion();
+    }
+  }, [isInfiniteMode, loading]);
 
   const handleAnswerSelect = (answer: AnswerChoice) => {
     if (!showAnswer) {
@@ -447,8 +479,15 @@ export function PracticeQuestion() {
   };
 
   const handleNextQuestion = () => {
-    if (currentQuestionIndex < sampleQuestions.length - 1 || isInfiniteMode) {
-      setCurrentQuestionIndex(prev => isInfiniteMode ? prev : prev + 1);
+    if (isInfiniteMode) {
+      // Get the next random question for infinite mode
+      loadNextInfiniteQuestion();
+      setSelectedAnswer(null);
+      setShowAnswer(false);
+      setShowExplanation(false);
+    } else if (currentQuestionIndex < sampleQuestions.length - 1) {
+      // Move to next question in standard mode
+      setCurrentQuestionIndex(prev => prev + 1);
       setSelectedAnswer(null);
       setShowAnswer(false);
       setShowExplanation(false);
@@ -479,10 +518,37 @@ export function PracticeQuestion() {
     setSelectedSubjects([]);
     setSelectedTopics([]);
     setIsInfiniteMode(false);
+    setCurrentInfiniteQuestion(null);
   };
 
   if (!mode) {
     return <PracticeModeSelection onModeSelect={handleModeSelect} />;
+  }
+
+  if (loading && isInfiniteMode) {
+    return (
+      <div className="max-w-4xl mx-auto p-6 text-center">
+        <h2 className="text-xl font-medium text-gray-700">Loading questions...</h2>
+        <div className="mt-4 flex justify-center">
+          <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-indigo-500"></div>
+        </div>
+      </div>
+    );
+  }
+
+  if (error && isInfiniteMode) {
+    return (
+      <div className="max-w-4xl mx-auto p-6 text-center">
+        <h2 className="text-xl font-medium text-red-600">Error loading questions</h2>
+        <p className="mt-2 text-gray-600">{error}</p>
+        <button
+          onClick={handleBack}
+          className="mt-4 px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700"
+        >
+          Go Back
+        </button>
+      </div>
+    );
   }
 
   if (mode === 'subject' && selectedSubjects.length === 0) {
@@ -506,6 +572,21 @@ export function PracticeQuestion() {
         }}
         onBack={handleBack}
       />
+    );
+  }
+
+  // Ensure we have a question to display
+  if (isInfiniteMode && !currentInfiniteQuestion) {
+    return (
+      <div className="max-w-4xl mx-auto p-6 text-center">
+        <h2 className="text-xl font-medium text-gray-700">No questions available</h2>
+        <button
+          onClick={handleBack}
+          className="mt-4 px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700"
+        >
+          Go Back
+        </button>
+      </div>
     );
   }
 
@@ -597,5 +678,3 @@ export function PracticeQuestion() {
     </div>
   );
 }
-
-// Removed redundant named export for PracticeQuestion
