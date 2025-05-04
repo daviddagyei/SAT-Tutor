@@ -1,1466 +1,1155 @@
 [
-  {
-    "id": "RW-M1-Q01",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 1,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The nbiki wgshw was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "redundant",
-      "D": "controversial"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M1-Q02",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 2,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The ixtnj bnfzu was considered ___ by experts.",
-    "choices": {
-      "A": "beneficial",
-      "B": "advantageous",
-      "C": "redundant",
-      "D": "controversial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M1-Q03",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 3,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The hfvcs cqrah was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "beneficial",
-      "C": "advantageous",
-      "D": "redundant"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "RW-M1-Q04",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 4,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The tfikk zrjzu was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "redundant",
-      "C": "beneficial",
-      "D": "controversial"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M1-Q05",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 5,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The cxaje gpezw was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "controversial",
-      "C": "beneficial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M1-Q06",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 6,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The wkiul ouxqb was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M1-Q07",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 7,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The bdthg pfxty was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "redundant",
-      "C": "controversial",
-      "D": "beneficial"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M1-Q08",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 8,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The qiwer injjs was considered ___ by experts.",
-    "choices": {
-      "A": "beneficial",
-      "B": "controversial",
-      "C": "advantageous",
-      "D": "redundant"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "RW-M1-Q09",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 9,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The bccqu rnvwp was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "advantageous",
-      "C": "redundant",
-      "D": "beneficial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M1-Q10",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 10,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The xasff uddun was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M1-Q11",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 11,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The xtvqa dqycr was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "advantageous",
-      "C": "redundant",
-      "D": "beneficial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M1-Q12",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 12,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The fqfpx jhlxn was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "advantageous",
-      "C": "redundant",
-      "D": "beneficial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M1-Q13",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 13,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The uqlef aopug was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "advantageous",
-      "C": "redundant",
-      "D": "beneficial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M1-Q14",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 14,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The lpvxs fygir was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "redundant",
-      "D": "controversial"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M1-Q15",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 15,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The oalwk nkypx was considered ___ by experts.",
-    "choices": {
-      "A": "redundant",
-      "B": "beneficial",
-      "C": "controversial",
-      "D": "advantageous"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "RW-M1-Q16",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 16,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The erxhx ryqyz was considered ___ by experts.",
-    "choices": {
-      "A": "redundant",
-      "B": "beneficial",
-      "C": "controversial",
-      "D": "advantageous"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "RW-M1-Q17",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 17,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The efyhe lnfjv was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "redundant",
-      "C": "beneficial",
-      "D": "advantageous"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "RW-M1-Q18",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 18,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The nykbd nxtbl was considered ___ by experts.",
-    "choices": {
-      "A": "beneficial",
-      "B": "controversial",
-      "C": "redundant",
-      "D": "advantageous"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "RW-M1-Q19",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 19,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The kpkxs wgtwh was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "redundant",
-      "D": "controversial"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M1-Q20",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 20,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The iqefq tezkl was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "redundant",
-      "C": "beneficial",
-      "D": "advantageous"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "RW-M1-Q21",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 21,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The txoni yvhdp was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "beneficial",
-      "C": "advantageous",
-      "D": "redundant"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "RW-M1-Q22",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 22,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The whedv qkjhf was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "advantageous",
-      "C": "redundant",
-      "D": "beneficial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M1-Q23",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 23,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The xbrrx yziyx was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "redundant",
-      "C": "controversial",
-      "D": "beneficial"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M1-Q24",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 24,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The lvkju iohej was considered ___ by experts.",
-    "choices": {
-      "A": "redundant",
-      "B": "advantageous",
-      "C": "beneficial",
-      "D": "controversial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M1-Q25",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 25,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The qyyyk phrvl was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M1-Q26",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 26,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The zlrtv rpnis was considered ___ by experts.",
-    "choices": {
-      "A": "beneficial",
-      "B": "controversial",
-      "C": "advantageous",
-      "D": "redundant"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "RW-M1-Q27",
-    "section": "Reading and Writing",
-    "module": 1,
-    "question_number": 27,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The pqouv uvqtr was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "beneficial",
-      "C": "redundant",
-      "D": "advantageous"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "RW-M2-Q01",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 1,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The recqr ckusv was considered ___ by experts.",
-    "choices": {
-      "A": "beneficial",
-      "B": "advantageous",
-      "C": "redundant",
-      "D": "controversial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M2-Q02",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 2,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The nimzi shkqz was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q03",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 3,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The ljyqf hclca was considered ___ by experts.",
-    "choices": {
-      "A": "redundant",
-      "B": "advantageous",
-      "C": "beneficial",
-      "D": "controversial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M2-Q04",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 4,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The qwnwr kcxrf was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "redundant",
-      "D": "controversial"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q05",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 5,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The mmsyf jrigr was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "advantageous",
-      "C": "redundant",
-      "D": "beneficial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M2-Q06",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 6,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The ehbpb pzhoe was considered ___ by experts.",
-    "choices": {
-      "A": "redundant",
-      "B": "controversial",
-      "C": "advantageous",
-      "D": "beneficial"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "RW-M2-Q07",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 7,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The tpuxf gbphi was considered ___ by experts.",
-    "choices": {
-      "A": "redundant",
-      "B": "beneficial",
-      "C": "advantageous",
-      "D": "controversial"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "RW-M2-Q08",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 8,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The rzces yexcw was considered ___ by experts.",
-    "choices": {
-      "A": "beneficial",
-      "B": "redundant",
-      "C": "controversial",
-      "D": "advantageous"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "RW-M2-Q09",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 9,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The dntmy dytap was considered ___ by experts.",
-    "choices": {
-      "A": "beneficial",
-      "B": "advantageous",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M2-Q10",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 10,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The dmigt lbemj was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "controversial",
-      "C": "beneficial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q11",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 11,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The wocbu brmfz was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q12",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 12,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The otzgc udoca was considered ___ by experts.",
-    "choices": {
-      "A": "beneficial",
-      "B": "advantageous",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M2-Q13",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 13,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The rsdti aozod was considered ___ by experts.",
-    "choices": {
-      "A": "redundant",
-      "B": "beneficial",
-      "C": "advantageous",
-      "D": "controversial"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "RW-M2-Q14",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 14,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The qlbzv ezavw was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "beneficial",
-      "C": "advantageous",
-      "D": "redundant"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "RW-M2-Q15",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 15,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The noues sknvy was considered ___ by experts.",
-    "choices": {
-      "A": "redundant",
-      "B": "advantageous",
-      "C": "controversial",
-      "D": "beneficial"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M2-Q16",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 16,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The srzjt yiska was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "redundant",
-      "C": "beneficial",
-      "D": "advantageous"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "RW-M2-Q17",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 17,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The rymfu zgrnh was considered ___ by experts.",
-    "choices": {
-      "A": "beneficial",
-      "B": "advantageous",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M2-Q18",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 18,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The stjxr ysiyt was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "controversial",
-      "C": "beneficial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q19",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 19,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The uacvf pncpe was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "redundant",
-      "C": "controversial",
-      "D": "beneficial"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q20",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 20,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The nnrvn rxldp was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q21",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 21,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The gufme yrgob was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "controversial",
-      "C": "beneficial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q22",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 22,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The qzfzv cakbs was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "redundant",
-      "C": "beneficial",
-      "D": "controversial"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q23",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 23,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The apsst qbtib was considered ___ by experts.",
-    "choices": {
-      "A": "redundant",
-      "B": "beneficial",
-      "C": "advantageous",
-      "D": "controversial"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "RW-M2-Q24",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 24,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The xonqq hpagj was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "redundant",
-      "C": "beneficial",
-      "D": "controversial"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q25",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 25,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The mfuuy cgpww was considered ___ by experts.",
-    "choices": {
-      "A": "beneficial",
-      "B": "advantageous",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "RW-M2-Q26",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 26,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The ztzep xqxwe was considered ___ by experts.",
-    "choices": {
-      "A": "advantageous",
-      "B": "beneficial",
-      "C": "controversial",
-      "D": "redundant"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "RW-M2-Q27",
-    "section": "Reading and Writing",
-    "module": 2,
-    "question_number": 27,
-    "type": "MC",
-    "category": "Craft and Structure",
-    "stimulus": "The orptv ukfal was considered ___ by experts.",
-    "choices": {
-      "A": "controversial",
-      "B": "beneficial",
-      "C": "advantageous",
-      "D": "redundant"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "M-M1-Q01",
-    "section": "Math",
-    "module": 1,
-    "question_number": 1,
-    "type": "MC",
-    "stimulus": "What is 20+20?",
-    "choices": {
-      "A": "39",
-      "B": "41",
-      "C": "40",
-      "D": "42"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "M-M1-Q02",
-    "section": "Math",
-    "module": 1,
-    "question_number": 2,
-    "type": "MC",
-    "stimulus": "What is 15+20?",
-    "choices": {
-      "A": "37",
-      "B": "36",
-      "C": "35",
-      "D": "34"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "M-M1-Q03",
-    "section": "Math",
-    "module": 1,
-    "question_number": 3,
-    "type": "MC",
-    "stimulus": "What is 13+1?",
-    "choices": {
-      "A": "15",
-      "B": "13",
-      "C": "16",
-      "D": "14"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "M-M1-Q04",
-    "section": "Math",
-    "module": 1,
-    "question_number": 4,
-    "type": "MC",
-    "stimulus": "What is 4+14?",
-    "choices": {
-      "A": "20",
-      "B": "17",
-      "C": "18",
-      "D": "19"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "M-M1-Q05",
-    "section": "Math",
-    "module": 1,
-    "question_number": 5,
-    "type": "MC",
-    "stimulus": "What is 15+10?",
-    "choices": {
-      "A": "27",
-      "B": "25",
-      "C": "24",
-      "D": "26"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "M-M1-Q06",
-    "section": "Math",
-    "module": 1,
-    "question_number": 6,
-    "type": "MC",
-    "stimulus": "What is 2+20?",
-    "choices": {
-      "A": "21",
-      "B": "24",
-      "C": "23",
-      "D": "22"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "M-M1-Q07",
-    "section": "Math",
-    "module": 1,
-    "question_number": 7,
-    "type": "MC",
-    "stimulus": "What is 14+16?",
-    "choices": {
-      "A": "32",
-      "B": "30",
-      "C": "29",
-      "D": "31"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "M-M1-Q08",
-    "section": "Math",
-    "module": 1,
-    "question_number": 8,
-    "type": "MC",
-    "stimulus": "What is 6+16?",
-    "choices": {
-      "A": "22",
-      "B": "21",
-      "C": "24",
-      "D": "23"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "M-M1-Q09",
-    "section": "Math",
-    "module": 1,
-    "question_number": 9,
-    "type": "MC",
-    "stimulus": "What is 7+6?",
-    "choices": {
-      "A": "12",
-      "B": "14",
-      "C": "13",
-      "D": "15"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "M-M1-Q10",
-    "section": "Math",
-    "module": 1,
-    "question_number": 10,
-    "type": "MC",
-    "stimulus": "What is 9+16?",
-    "choices": {
-      "A": "25",
-      "B": "26",
-      "C": "27",
-      "D": "24"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "M-M1-Q11",
-    "section": "Math",
-    "module": 1,
-    "question_number": 11,
-    "type": "MC",
-    "stimulus": "What is 1+3?",
-    "choices": {
-      "A": "6",
-      "B": "4",
-      "C": "5",
-      "D": "3"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "M-M1-Q12",
-    "section": "Math",
-    "module": 1,
-    "question_number": 12,
-    "type": "MC",
-    "stimulus": "What is 5+20?",
-    "choices": {
-      "A": "26",
-      "B": "25",
-      "C": "27",
-      "D": "24"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "M-M1-Q13",
-    "section": "Math",
-    "module": 1,
-    "question_number": 13,
-    "type": "MC",
-    "stimulus": "What is 10+19?",
-    "choices": {
-      "A": "30",
-      "B": "28",
-      "C": "31",
-      "D": "29"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "M-M1-Q14",
-    "section": "Math",
-    "module": 1,
-    "question_number": 14,
-    "type": "MC",
-    "stimulus": "What is 11+2?",
-    "choices": {
-      "A": "14",
-      "B": "13",
-      "C": "15",
-      "D": "12"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "M-M1-Q15",
-    "section": "Math",
-    "module": 1,
-    "question_number": 15,
-    "type": "MC",
-    "stimulus": "What is 8+19?",
-    "choices": {
-      "A": "29",
-      "B": "26",
-      "C": "28",
-      "D": "27"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "M-M1-Q16",
-    "section": "Math",
-    "module": 1,
-    "question_number": 16,
-    "type": "MC",
-    "stimulus": "What is 4+7?",
-    "choices": {
-      "A": "12",
-      "B": "10",
-      "C": "13",
-      "D": "11"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "M-M1-Q17",
-    "section": "Math",
-    "module": 1,
-    "question_number": 17,
-    "type": "MC",
-    "stimulus": "What is 3+14?",
-    "choices": {
-      "A": "18",
-      "B": "19",
-      "C": "16",
-      "D": "17"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "M-M1-Q18",
-    "section": "Math",
-    "module": 1,
-    "question_number": 18,
-    "type": "SPR",
-    "stimulus": "What is the square of 5?",
-    "answer": "25"
-  },
-  {
-    "id": "M-M1-Q19",
-    "section": "Math",
-    "module": 1,
-    "question_number": 19,
-    "type": "SPR",
-    "stimulus": "What is the square of 8?",
-    "answer": "64"
-  },
-  {
-    "id": "M-M1-Q20",
-    "section": "Math",
-    "module": 1,
-    "question_number": 20,
-    "type": "SPR",
-    "stimulus": "What is the square of 2?",
-    "answer": "4"
-  },
-  {
-    "id": "M-M1-Q21",
-    "section": "Math",
-    "module": 1,
-    "question_number": 21,
-    "type": "SPR",
-    "stimulus": "What is the square of 2?",
-    "answer": "4"
-  },
-  {
-    "id": "M-M1-Q22",
-    "section": "Math",
-    "module": 1,
-    "question_number": 22,
-    "type": "SPR",
-    "stimulus": "What is the square of 4?",
-    "answer": "16"
-  },
-  {
-    "id": "M-M2-Q01",
-    "section": "Math",
-    "module": 2,
-    "question_number": 1,
-    "type": "MC",
-    "stimulus": "What is 10+18?",
-    "choices": {
-      "A": "28",
-      "B": "30",
-      "C": "29",
-      "D": "27"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "M-M2-Q02",
-    "section": "Math",
-    "module": 2,
-    "question_number": 2,
-    "type": "MC",
-    "stimulus": "What is 8+14?",
-    "choices": {
-      "A": "22",
-      "B": "24",
-      "C": "23",
-      "D": "21"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "M-M2-Q03",
-    "section": "Math",
-    "module": 2,
-    "question_number": 3,
-    "type": "MC",
-    "stimulus": "What is 16+9?",
-    "choices": {
-      "A": "25",
-      "B": "24",
-      "C": "27",
-      "D": "26"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "M-M2-Q04",
-    "section": "Math",
-    "module": 2,
-    "question_number": 4,
-    "type": "MC",
-    "stimulus": "What is 8+19?",
-    "choices": {
-      "A": "29",
-      "B": "28",
-      "C": "26",
-      "D": "27"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "M-M2-Q05",
-    "section": "Math",
-    "module": 2,
-    "question_number": 5,
-    "type": "MC",
-    "stimulus": "What is 6+16?",
-    "choices": {
-      "A": "24",
-      "B": "21",
-      "C": "23",
-      "D": "22"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "M-M2-Q06",
-    "section": "Math",
-    "module": 2,
-    "question_number": 6,
-    "type": "MC",
-    "stimulus": "What is 2+7?",
-    "choices": {
-      "A": "9",
-      "B": "11",
-      "C": "10",
-      "D": "8"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "M-M2-Q07",
-    "section": "Math",
-    "module": 2,
-    "question_number": 7,
-    "type": "MC",
-    "stimulus": "What is 20+1?",
-    "choices": {
-      "A": "21",
-      "B": "20",
-      "C": "22",
-      "D": "23"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "M-M2-Q08",
-    "section": "Math",
-    "module": 2,
-    "question_number": 8,
-    "type": "MC",
-    "stimulus": "What is 4+1?",
-    "choices": {
-      "A": "5",
-      "B": "6",
-      "C": "7",
-      "D": "4"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "M-M2-Q09",
-    "section": "Math",
-    "module": 2,
-    "question_number": 9,
-    "type": "MC",
-    "stimulus": "What is 12+17?",
-    "choices": {
-      "A": "30",
-      "B": "28",
-      "C": "29",
-      "D": "31"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "M-M2-Q10",
-    "section": "Math",
-    "module": 2,
-    "question_number": 10,
-    "type": "MC",
-    "stimulus": "What is 5+16?",
-    "choices": {
-      "A": "20",
-      "B": "23",
-      "C": "21",
-      "D": "22"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "M-M2-Q11",
-    "section": "Math",
-    "module": 2,
-    "question_number": 11,
-    "type": "MC",
-    "stimulus": "What is 11+16?",
-    "choices": {
-      "A": "26",
-      "B": "28",
-      "C": "29",
-      "D": "27"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "M-M2-Q12",
-    "section": "Math",
-    "module": 2,
-    "question_number": 12,
-    "type": "MC",
-    "stimulus": "What is 5+20?",
-    "choices": {
-      "A": "25",
-      "B": "27",
-      "C": "24",
-      "D": "26"
-    },
-    "correct": "A"
-  },
-  {
-    "id": "M-M2-Q13",
-    "section": "Math",
-    "module": 2,
-    "question_number": 13,
-    "type": "MC",
-    "stimulus": "What is 19+14?",
-    "choices": {
-      "A": "32",
-      "B": "34",
-      "C": "35",
-      "D": "33"
-    },
-    "correct": "D"
-  },
-  {
-    "id": "M-M2-Q14",
-    "section": "Math",
-    "module": 2,
-    "question_number": 14,
-    "type": "MC",
-    "stimulus": "What is 12+17?",
-    "choices": {
-      "A": "28",
-      "B": "29",
-      "C": "30",
-      "D": "31"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "M-M2-Q15",
-    "section": "Math",
-    "module": 2,
-    "question_number": 15,
-    "type": "MC",
-    "stimulus": "What is 14+18?",
-    "choices": {
-      "A": "34",
-      "B": "32",
-      "C": "31",
-      "D": "33"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "M-M2-Q16",
-    "section": "Math",
-    "module": 2,
-    "question_number": 16,
-    "type": "MC",
-    "stimulus": "What is 1+4?",
-    "choices": {
-      "A": "4",
-      "B": "7",
-      "C": "5",
-      "D": "6"
-    },
-    "correct": "C"
-  },
-  {
-    "id": "M-M2-Q17",
-    "section": "Math",
-    "module": 2,
-    "question_number": 17,
-    "type": "MC",
-    "stimulus": "What is 20+12?",
-    "choices": {
-      "A": "33",
-      "B": "32",
-      "C": "34",
-      "D": "31"
-    },
-    "correct": "B"
-  },
-  {
-    "id": "M-M2-Q18",
-    "section": "Math",
-    "module": 2,
-    "question_number": 18,
-    "type": "SPR",
-    "stimulus": "What is the square of 5?",
-    "answer": "25"
-  },
-  {
-    "id": "M-M2-Q19",
-    "section": "Math",
-    "module": 2,
-    "question_number": 19,
-    "type": "SPR",
-    "stimulus": "What is the square of 6?",
-    "answer": "36"
-  },
-  {
-    "id": "M-M2-Q20",
-    "section": "Math",
-    "module": 2,
-    "question_number": 20,
-    "type": "SPR",
-    "stimulus": "What is the square of 9?",
-    "answer": "81"
-  },
-  {
-    "id": "M-M2-Q21",
-    "section": "Math",
-    "module": 2,
-    "question_number": 21,
-    "type": "SPR",
-    "stimulus": "What is the square of 4?",
-    "answer": "16"
-  },
-  {
-    "id": "M-M2-Q22",
-    "section": "Math",
-    "module": 2,
-    "question_number": 22,
-    "type": "SPR",
-    "stimulus": "What is the square of 2?",
-    "answer": "4"
-  }
-]
+    {
+      "id": "RW-M1-Q01",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 1,
+      "type": "MC",
+      "category": "Craft and Structure",
+      "stimulus": "In 2020 the probe OSIRIS‑REx touched asteroid Bennu. Despite the boulder‑strewn surface, it __________ a portion of material to return to Earth.",
+      "choices": {
+        "A": "fastened",
+        "B": "collected",
+        "C": "pursued",
+        "D": "replaced"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "RW-M1-Q02",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 2,
+      "type": "MC",
+      "category": "Craft and Structure",
+      "stimulus": "Planetary scientist Katarina Miljkovic argues that the Moon’s crust may no longer faithfully __________ evidence of its earliest impacts, since a softer young surface left shallow marks that later vanished.",
+      "choices": {
+        "A": "display",
+        "B": "absorb",
+        "C": "judge",
+        "D": "replicate"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q03",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 3,
+      "type": "MC",
+      "category": "Craft and Structure",
+      "stimulus": "Handedness is simple to spot in humans, but because the preference is less __________ in other animals, researchers devise special tasks to reveal which limb an individual favors.",
+      "choices": {
+        "A": "recognizable",
+        "B": "fascinating",
+        "C": "momentous",
+        "D": "practical"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q04",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 4,
+      "type": "MC",
+      "category": "Craft and Structure",
+      "stimulus": "It is by no means __________ to acknowledge Dutch painter Hieronymus Bosch’s influence on Ali Banisadr’s art; Banisadr himself cites Bosch as a source of inspiration.",
+      "choices": {
+        "A": "weighty",
+        "B": "gratifying",
+        "C": "trivial",
+        "D": "suitable"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "RW-M1-Q05",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 5,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "In Susan Glaspell’s 1912 story, an elderly shopkeeper both grumbles that a newly acquired painting clashes with his other merchandise and secretly takes pride in owning it.",
+      "choices": {
+        "A": "Reveal the owner’s mixed feelings about his recent purchase",
+        "B": "Show the owner’s anger at the seller of the painting",
+        "C": "List the items the owner values most highly",
+        "D": "Compare the new artwork with every other picture in the shop"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q06",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 6,
+      "type": "MC",
+      "category": "Craft and Structure",
+      "stimulus": "In the poem “Black Finger,” the speaker first depicts a slender cypress silhouetted against a golden sky and then wonders what meaning to assign to that arresting image.",
+      "choices": {
+        "A": "assessment followed by self‑doubt",
+        "B": "description followed by contemplation",
+        "C": "scene followed by human action",
+        "D": "observation followed by emotional analysis"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "RW-M1-Q07",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 7,
+      "type": "MC",
+      "category": "Craft and Structure",
+      "stimulus": "In Whitman’s poem, the speaker answers the charge that he wants to dismantle social institutions and then proclaims an ambitious goal: to establish everywhere an “institution” of comradeship.",
+      "choices": {
+        "A": "Questioning a spreading attitude, then summarizing a worldview",
+        "B": "Regretting isolation, then forecasting societal change",
+        "C": "Admitting faults, then listing achievements",
+        "D": "Addressing criticism, then announcing a grand aim"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "RW-M1-Q08",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 8,
+      "type": "MC",
+      "category": "Craft and Structure",
+      "stimulus": "The sentence \"Evolutionary links between predators and prey can last for millennia across great distances\" sets up an example: mimosa trees in North America were swiftly attacked once their native beetle, *B. terrenus*, arrived two centuries after the trees.",
+      "choices": {
+        "A": "Stating Chang’s original hypothesis about trees and beetles",
+        "B": "Offering a general principle illustrated by the example that follows",
+        "C": "Proposing a competing explanation for Chang’s findings",
+        "D": "Explaining why certain species migrate to new habitats"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "RW-M1-Q09",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 9,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "Graeber and Wengrow would most likely __________ the traditional view that human social structures advanced in a single line from egalitarian bands to bureaucratic states.",
+      "choices": {
+        "A": "accept hierarchy’s importance but claim collective systems matter more",
+        "B": "challenge the idea of a neat, step‑by‑step progression",
+        "C": "agree hierarchies began only after agriculture arose",
+        "D": "doubt that hunter‑gatherer groups were among the earliest systems"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "RW-M1-Q10",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 10,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "Mary, having discovered a hidden, overgrown garden, throws herself into weeding and digging and finds the work delightful rather than tiring.",
+      "choices": {
+        "A": "Mary hides in the garden to avoid chores.",
+        "B": "Mary is bored with endless weeding.",
+        "C": "Mary clears space in order to play games there.",
+        "D": "Mary feels deeply satisfied while tending the garden."
+      },
+      "correct": "D"
+    },
+    {
+      "id": "RW-M1-Q11",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 11,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "Ezra Pound likens a ‘tender mind’ to a delicate blossom: both thrive when properly nourished and wither when that sustenance is absent.",
+      "choices": {
+        "A": "It strengthens steadily over time.",
+        "B": "It gains vigor from changing weather.",
+        "C": "It needs the right sustenance to flourish.",
+        "D": "It endures regardless of hardship."
+      },
+      "correct": "C"
+    },
+    {
+      "id": "RW-M1-Q12",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 12,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "In London’s *The Call of the Wild*, Buck interacts coolly with nearly everyone, reserving genuine warmth only for John Thornton, whom he esteems above all others.",
+      "choices": {
+        "A": "Buck has become less sociable since meeting Thornton.",
+        "B": "Buck distrusts humans and keeps away from them.",
+        "C": "Buck is a favorite of Thornton’s many friends.",
+        "D": "Buck values Thornton more highly than any other person."
+      },
+      "correct": "D"
+    },
+    {
+      "id": "RW-M1-Q13",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 13,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "USDA data show that in 2016 California hosted roughly 2,600–2,800 organic farms, while __________ had between 600 and 800 such farms.",
+      "choices": {
+        "A": "Washington",
+        "B": "New York",
+        "C": "Wisconsin and Iowa",
+        "D": "Pennsylvania"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q14",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 14,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "To bolster their idea that female fork‑tailed flycatchers favor the flight sound unique to their own subspecies, researchers would be most helped by evidence that over generations the migratory males’ feather sound is becoming progressively higher pitched.",
+      "choices": {
+        "A": "Wing‑feather shape aids long flights.",
+        "B": "Migratory males’ feather tones rise in pitch over time.",
+        "C": "Different feather sounds convey different messages.",
+        "D": "Breeding behavior has not changed over generations."
+      },
+      "correct": "B"
+    },
+    {
+      "id": "RW-M1-Q15",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 15,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "Ablation of iron in slow‑moving AST dust averages 28 percent, whereas in the faster HTC dust the figure climbs to __________.",
+      "choices": {
+        "A": "20 percent",
+        "B": "100 percent",
+        "C": "90 percent",
+        "D": "75 percent"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "RW-M1-Q16",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 16,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "An interviewed artist said, “Our collective had amazing talent and camaraderie, but disagreements over sharing credit and duties meant it eventually dissolved.”",
+      "choices": {
+        "A": "Illustrates that collaboration can be hard for artists used to full control",
+        "B": "Describes how duties are divided fairly in a collective",
+        "C": "Emphasizes the support a collective gives individual expression",
+        "D": "Explains how outside artists join collective projects"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q17",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 17,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "The student expected the non‑mycorrhizal species to gain no benefit from the fungi, yet broccoli grown with fungi weighed slightly more than broccoli grown in sterilized soil.",
+      "choices": {
+        "A": "Broccoli with fungi was a bit heavier than broccoli without fungi.",
+        "B": "Corn with fungi outweighed broccoli with fungi.",
+        "C": "Marigold with fungi far outweighed marigold without fungi.",
+        "D": "Corn was heaviest and marigold lightest among plants without fungi."
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q18",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 18,
+      "type": "MC",
+      "category": "Information and Ideas",
+      "stimulus": "Because cupids may have been linked to fishing in general, the presence of a cupid near the female angler in Pompeian art __________.",
+      "choices": {
+        "A": "does not conclusively prove the figure is Venus",
+        "B": "implies Venus was often shown fishing",
+        "C": "rules out any possibility the figure is Venus",
+        "D": "would be puzzling unless the figure is Venus"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q19",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 19,
+      "type": "MC",
+      "category": "Standard English Conventions",
+      "stimulus": "…ghostwriters, professional authors who are paid to write other __________ yet whose names never appear on the covers.",
+      "choices": {
+        "A": "people’s stories",
+        "B": "peoples story’s",
+        "C": "peoples stories",
+        "D": "people’s story’s"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q20",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 20,
+      "type": "MC",
+      "category": "Standard English Conventions",
+      "stimulus": "Unable to generate body heat, the wood frog regularly __________ sub‑freezing temperatures by flooding its cells with glucose, which prevents ice damage.",
+      "choices": {
+        "A": "had survived",
+        "B": "survived",
+        "C": "would survive",
+        "D": "survives"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "RW-M1-Q21",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 21,
+      "type": "MC",
+      "category": "Standard English Conventions",
+      "stimulus": "Defying all odds, Wilma Rudolph didn’t just walk, she ran—fast. __________ the 1960 Olympic Games she claimed three gold medals.",
+      "choices": {
+        "A": "ran—fast—during",
+        "B": "ran—fast during",
+        "C": "ran—fast, during",
+        "D": "ran—fast. During"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "RW-M1-Q22",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 22,
+      "type": "MC",
+      "category": "Standard English Conventions",
+      "stimulus": "…the triangle depicting Mount Tamalpais __________ one of the few clearly defined forms in Etel Adnan’s abstract paintings.",
+      "choices": {
+        "A": "are",
+        "B": "have been",
+        "C": "were",
+        "D": "is"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "RW-M1-Q23",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 23,
+      "type": "MC",
+      "category": "Standard English Conventions",
+      "stimulus": "In 2004 Watt stitched blanket strips into a 10 × 13‑inch sampler; __________ 2014 she stacked folded blankets and cast them in bronze as towering pillars.",
+      "choices": {
+        "A": "sampler later,",
+        "B": "sampler;",
+        "C": "sampler,",
+        "D": "sampler, later,"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "RW-M1-Q24",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 24,
+      "type": "MC",
+      "category": "Expression of Ideas",
+      "stimulus": "Named in 1999 as one of the greatest achievements by a US chemist in the past century, __________ led to the first mass‑produced glaucoma treatment.",
+      "choices": {
+        "A": "Julian synthesized the alkaloid physostigmine in 1935; it",
+        "B": "In 1935 Julian synthesized the alkaloid physostigmine, which",
+        "C": "Julian’s 1935 synthesis of the alkaloid physostigmine",
+        "D": "The alkaloid physostigmine was synthesized by Julian in 1935 and"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "RW-M1-Q25",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 25,
+      "type": "MC",
+      "category": "Standard English Conventions",
+      "stimulus": "…botanical gardens around the world are devoted to growing diverse plant species, both native and nonnative; fostering scientific research; and educating the public about conservation.",
+      "choices": {
+        "A": "species, both native and nonnative,",
+        "B": "species, both native and nonnative;",
+        "C": "species; both native and nonnative,",
+        "D": "species both native and nonnative,"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "RW-M1-Q26",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 26,
+      "type": "MC",
+      "category": "Standard English Conventions",
+      "stimulus": "Okinaka doesn’t make such decisions single‑handedly, however; all historic designations must win the approval of nine other experts.",
+      "choices": {
+        "A": "single‑handedly, however;",
+        "B": "single‑handedly; however,",
+        "C": "single‑handedly, however,",
+        "D": "single‑handedly however"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q27",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 27,
+      "type": "MC",
+      "category": "Expression of Ideas",
+      "stimulus": "Conyers and Chisholm persisted for fifteen years, resubmitting the bill each session; __________, in 1983, it finally passed.",
+      "choices": {
+        "A": "Instead,",
+        "B": "Likewise,",
+        "C": "Finally,",
+        "D": "Additionally,"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "RW-M1-Q28",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 28,
+      "type": "MC",
+      "category": "Expression of Ideas",
+      "stimulus": "Mauna Loa has long been considered Earth’s largest shield volcano; __________, new research suggests Pūhāhonu is roughly twice its size.",
+      "choices": {
+        "A": "Secondly,",
+        "B": "Consequently,",
+        "C": "Moreover,",
+        "D": "However,"
+      },
+      "correct": "D"
+    },
+    {
+      "id": "RW-M1-Q29",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 29,
+      "type": "MC",
+      "category": "Expression of Ideas",
+      "stimulus": "Coleridge‑Taylor highlighted his mixed heritage by calling himself Anglo‑African; in addition, he wove traditional African melodies into his classical works.",
+      "choices": {
+        "A": "In addition,",
+        "B": "Actually,",
+        "C": "However,",
+        "D": "Regardless,"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q30",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 30,
+      "type": "MC",
+      "category": "Expression of Ideas",
+      "stimulus": "The stew produced a calming effect; __________, the researchers reasoned that its ancient Mesopotamian name—“unwinding”—referred to that soothing quality.",
+      "choices": {
+        "A": "Therefore,",
+        "B": "Alternately,",
+        "C": "Nevertheless,",
+        "D": "Likewise,"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "RW-M1-Q31",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 31,
+      "type": "MC",
+      "category": "Expression of Ideas",
+      "stimulus": "Baking soda needs an acidic partner to release carbon dioxide in batter, whereas baking powder does not.",
+      "choices": {
+        "A": "Bakers use chemical leaveners such as baking soda and baking powder.",
+        "B": "Both agents create bubbles when mixed into a batter.",
+        "C": "Baking soda is sodium bicarbonate, and honey is acidic.",
+        "D": "To produce carbon dioxide, baking soda requires an acid, but baking powder doesn’t."
+      },
+      "correct": "D"
+    },
+    {
+      "id": "RW-M1-Q32",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 32,
+      "type": "MC",
+      "category": "Expression of Ideas",
+      "stimulus": "In *Unwoven Light* (2013) by Korean‑American artist Soo Sunny Park, rays passing through iridescent plexiglass tiles on a chain‑link fence refract into brilliant prisms.",
+      "choices": {
+        "A": "Park’s 2013 installation used light as its main medium.",
+        "B": "Light artist Soo Sunny Park created *Unwoven Light* in 2013.",
+        "C": "The fence in the work carried iridescent plexiglass tiles.",
+        "D": "Light formed colorful prisms as it pierced the fence fitted with iridescent tiles."
+      },
+      "correct": "D"
+    },
+    {
+      "id": "RW-M1-Q33",
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 33,
+      "type": "MC",
+      "category": "Expression of Ideas",
+      "stimulus": "Using a novel digital imaging process, archaeologist Noel Hidalgo Tan revealed hundreds of hidden paintings on the plaster walls of Angkor Wat, a twelfth‑century Cambodian temple.",
+      "choices": {
+        "A": "Tan photographed the walls and later enhanced the pictures.",
+        "B": "Decorrelation stretch analysis heightened the contrast in Tan’s photos.",
+        "C": "A new imaging technique exposed hundreds of unseen images at Angkor Wat.",
+        "D": "Built for a Hindu god, the temple held paintings concealed in plaster."
+      },
+      "correct": "C"
+    },
+
+    {
+      "id": "M-M1-Q01",
+      "section": "Math",
+      "module": 1,
+      "question_number": 1,
+      "type": "MC",
+      "category": "Data Analysis",
+      "stimulus": "A bar chart recorded how many students selected each of five after‑school activities. Exactly 39 students chose Activity 3. Which value corresponds to the height of the Activity 3 bar?",
+      "choices": { "A": "31", "B": "39", "C": "43", "D": "55" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M1-Q02",
+      "section": "Math",
+      "module": 1,
+      "question_number": 2,
+      "type": "MC",
+      "category": "Ratio & Percent",
+      "stimulus": "Seventy‑five is what percent of 300?",
+      "choices": { "A": "25%", "B": "50%", "C": "75%", "D": "225%" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M1-Q03",
+      "section": "Math",
+      "module": 1,
+      "question_number": 3,
+      "type": "MC",
+      "category": "Algebra",
+      "stimulus": "Solve for x: $\\frac{2}{25}x = 30$.",
+      "choices": { "A": "6", "B": "30", "C": "375", "D": "450" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M1-Q04",
+      "section": "Math",
+      "module": 1,
+      "question_number": 4,
+      "type": "MC",
+      "category": "Algebra",
+      "stimulus": "Which equation translates the statement “Eight times a number added to three equals 83”?",
+      "choices": { "A": "8x − 3 = 83", "B": "8x + 3 = 83", "C": "3x + 8 = 83", "D": "8 − 3x = 83" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M1-Q05",
+      "section": "Math",
+      "module": 1,
+      "question_number": 5,
+      "type": "MC",
+      "category": "Linear Relationships",
+      "stimulus": "A student makes identical $25 deposits to a savings account every month, starting with $0. Which expression gives the balance B (in dollars) after d deposits?",
+      "choices": { "A": "B = 25d", "B": "B = 25d + 25", "C": "B = 25(d − 1)", "D": "B = d/25" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M1-Q06",
+      "section": "Math",
+      "module": 1,
+      "question_number": 6,
+      "type": "MC",
+      "category": "Geometry – Area",
+      "stimulus": "A rectangular garden is 3 ft longer than it is wide and has an area of 27 ft². What is the garden’s width?",
+      "choices": { "A": "3 ft", "B": "6 ft", "C": "9 ft", "D": "12 ft" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M1-Q07",
+      "section": "Math",
+      "module": 1,
+      "question_number": 7,
+      "type": "MC",
+      "category": "Statistics",
+      "stimulus": "For a data set with mean 10 and standard deviation 2, which value is exactly 2 standard deviations above the mean?",
+      "choices": { "A": "6", "B": "8", "C": "12", "D": "14" },
+      "correct": "D"
+    },
+    {
+      "id": "M-M1-Q08",
+      "section": "Math",
+      "module": 1,
+      "question_number": 8,
+      "type": "MC",
+      "category": "Functions",
+      "stimulus": "A linear function f satisfies f(0)=29 and f(1)=32. Which equation defines f?",
+      "choices": { "A": "f(x)=2x+29", "B": "f(x)=3x+29", "C": "f(x)=29x+3", "D": "f(x)=32x−3" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M1-Q09",
+      "section": "Math",
+      "module": 1,
+      "question_number": 9,
+      "type": "MC",
+      "category": "Geometry – Similarity",
+      "stimulus": "In right triangles △PQR and △STU, ∠P ≅ ∠S and ∠R and ∠U are right angles. If m∠Q = 18°, what is m∠S?",
+      "choices": { "A": "18°", "B": "72°", "C": "90°", "D": "108°" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M1-Q10",
+      "section": "Math",
+      "module": 1,
+      "question_number": 10,
+      "type": "MC",
+      "category": "Modeling Data",
+      "stimulus": "A scatterplot shows y decreasing as x increases. The y‑intercept is just above 9, and the best‑fit line has negative slope around −0.9. Which equation best models the data?",
+      "choices": { "A": "y = 0.9x + 0.8", "B": "y = −0.8x + 0.9", "C": "y = 0.8x + 9.2", "D": "y = −0.9x + 9.4" },
+      "correct": "D"
+    },
+    {
+      "id": "M-M1-Q11",
+      "section": "Math",
+      "module": 1,
+      "question_number": 11,
+      "type": "MC",
+      "category": "Algebra – Substitution",
+      "stimulus": "The number of birds b is given by b = 4r + 8. How many birds are there when r = 16?",
+      "choices": { "A": "72", "B": "64", "C": "40", "D": "24" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M1-Q12",
+      "section": "Math",
+      "module": 1,
+      "question_number": 12,
+      "type": "MC",
+      "category": "Proportional Relationships",
+      "stimulus": "A rectangle’s length‑to‑width ratio is 35 : 10. If the width increases by 7 units, how must the length change to keep the ratio?",
+      "choices": { "A": "Decrease 24.5 units", "B": "Increase 24.5 units", "C": "Decrease 7 units", "D": "Increase 7 units" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M1-Q13",
+      "section": "Math",
+      "module": 1,
+      "question_number": 13,
+      "type": "MC",
+      "category": "Geometry – Perimeter/Area",
+      "stimulus": "Square P has side x. Square Q’s perimeter is 176 in greater than that of square P. Which function f(x) gives the area of square Q?",
+      "choices": {
+        "A": "f(x) = (x + 44)²",
+        "B": "f(x) = (x + 176)²",
+        "C": "f(x) = (176x + 44)²",
+        "D": "f(x) = (176x + 176)²"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "M-M1-Q14",
+      "section": "Math",
+      "module": 1,
+      "question_number": 14,
+      "type": "MC",
+      "category": "Algebra – Literal Equations",
+      "stimulus": "Given $\\frac{14x}{7y} = 2w + 19$ for positive real w, x, y, which option isolates w?",
+      "choices": {
+        "A": "w = x/y − 19",
+        "B": "w = 28x/(14y) − 19",
+        "C": "w = \\frac{x/y - 19}{2}",
+        "D": "w = \\frac{28x/(14y) - 19}{2}"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "M-M1-Q15",
+      "section": "Math",
+      "module": 1,
+      "question_number": 15,
+      "type": "MC",
+      "category": "Circle Theorems",
+      "stimulus": "In a circle centered at O, arc RS measures 100°. What is m∠ROS?",
+      "choices": { "A": "40°", "B": "50°", "C": "80°", "D": "100°" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M1-Q16",
+      "section": "Math",
+      "module": 1,
+      "question_number": 16,
+      "type": "MC",
+      "category": "Exponents",
+      "stimulus": "The expression $5^{5x}\\cdot3^{4x} / 6^{2x}$ simplifies to $b\\cdot a^x$. What is a + b?",
+      "choices": { "A": "9", "B": "14", "C": "41", "D": "45.125" },
+      "correct": "D"
+    },
+    {
+      "id": "M-M1-Q17",
+      "section": "Math",
+      "module": 1,
+      "question_number": 17,
+      "type": "MC",
+      "category": "Geometry – Right Triangles",
+      "stimulus": "A right triangle has legs (2\\sqrt{2}) and (6\\sqrt{2}). What is its area?",
+      "choices": { "A": "8√2 + 80", "B": "12", "C": "24√80", "D": "12" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M1-Q18",
+      "section": "Math",
+      "module": 1,
+      "question_number": 18,
+      "type": "MC",
+      "category": "Polynomials – Factoring",
+      "stimulus": "The quartic (4x^2 + bx − 45) factors as (hx + k)(x + j) with integers h, k, j. Which value must be an integer?",
+      "choices": { "A": "b/h", "B": "b/k", "C": "45/h", "D": "45/k" },
+      "correct": "D"
+    },
+    {
+      "id": "M-M1-Q19",
+      "section": "Math",
+      "module": 1,
+      "question_number": 19,
+      "type": "MC",
+      "category": "Systems of Equations",
+      "stimulus": "The system $y=2x^2-21x+64$ and $y=3x+a$ intersects once. Which a satisfies this?",
+      "choices": { "A": "−8", "B": "−6", "C": "6", "D": "8" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M1-Q20",
+      "section": "Math",
+      "module": 1,
+      "question_number": 20,
+      "type": "MC",
+      "category": "Quadratic Models",
+      "stimulus": "The quadratic $y=\\frac{1}{9}(x-7)^2 + 3$ models a rolling ball's height (y) inches after (x) seconds. What is the ball's minimum height?",
+      "choices": { "A": "−7 in", "B": "0 in", "C": "3 in", "D": "9 in" },
+      "correct": "C"
+    },
+    {
+      "id": "M-M1-Q21",
+      "section": "Math",
+      "module": 1,
+      "question_number": 21,
+      "type": "SPR",
+      "category": "Quadratic Inequalities",
+      "stimulus": "For which greatest positive integer b does the quadratic $-x^2 + bx - 676 = 0$ have no real solutions?",
+      "answer": 51
+    },
+    {
+      "id": "M-M1-Q22",
+      "section": "Math",
+      "module": 1,
+      "question_number": 22,
+      "type": "MC",
+      "category": "Systems – Graphical",
+      "stimulus": "Three linear graphs are formed by adding the line 4x + y = −16 to the system shown. How many solutions does the 3‑line system have?",
+      "choices": { "A": "0", "B": "1", "C": "2", "D": "Infinitely many" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M1-Q23",
+      "section": "Math",
+      "module": 1,
+      "question_number": 23,
+      "type": "MC",
+      "category": "Exponential Functions",
+      "stimulus": "For (f(x)=5470·0.64^{x/12}), by what percent does the value drop each year?",
+      "choices": { "A": "28%", "B": "32%", "C": "36%", "D": "64%" },
+      "correct": "C"
+    },
+    {
+      "id": "M-M1-Q24",
+      "section": "Math",
+      "module": 1,
+      "question_number": 24,
+      "type": "MC",
+      "category": "Statistics",
+      "stimulus": "A dot plot lists 15 numbers in data set A. The middle (8th) value is 23 and the maximum is 41, minimum 11. What is the range?",
+      "choices": { "A": "12", "B": "23", "C": "30", "D": "41" },
+      "correct": "C"
+    },
+    {
+      "id": "M-M1-Q25",
+      "section": "Math",
+      "module": 1,
+      "question_number": 25,
+      "type": "MC",
+      "category": "Right‑Triangle Geometry",
+      "stimulus": "An isosceles right triangle’s hypotenuse is 58 in. What is its perimeter?",
+      "choices": { "A": "29√2", "B": "58√2", "C": "58 + 58√2", "D": "58 + 116√2" },
+      "correct": "C"
+    },
+    {
+      "id": "M-M1-Q26",
+      "section": "Math",
+      "module": 1,
+      "question_number": 26,
+      "type": "MC",
+      "category": "Quadratics – Sum of Coefficients",
+      "stimulus": "A parabola with vertex (9, −14) meets the x‑axis twice and is (y=ax^2+bx+c). Which could equal a + b + c?",
+      "choices": { "A": "−23", "B": "−19", "C": "−14", "D": "−12" },
+      "correct": "C"
+    },
+    {
+      "id": "M-M1-Q27",
+      "section": "Math",
+      "module": 1,
+      "question_number": 27,
+      "type": "SPR",
+      "category": "Linear Functions",
+      "stimulus": "Let (f(x)= −ax + b\\). The graph of \\(y = f(x) − 15\\) has y‑intercept \\(\\left(0, -\\tfrac{99}{7}\\right)\\). Given \\(ab = \\tfrac{65}{7}\\), find a.",
+      "answer": 9
+    },
+
+    {
+      "id": "M-M2-Q01",
+      "section": "Math",
+      "module": 2,
+      "question_number": 1,
+      "type": "MC",
+      "category": "Statistics",
+      "stimulus": "A swimmer logs 5104 yd in a session. How many miles did the swimmer cover? (1 mile = 1760 yd)",
+      "choices": { "A": "2.0", "B": "2.9", "C": "3.4", "D": "5.1" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M2-Q02",
+      "section": "Math",
+      "module": 2,
+      "question_number": 2,
+      "type": "MC",
+      "category": "Algebraic Expressions",
+      "stimulus": "Subtract: \\(12x^3 − 5x − (12x^3 + 5x)\\).",
+      "choices": { "A": "0", "B": "24x^3", "C": "−10x", "D": "−37x" },
+      "correct": "D"
+    },
+    {
+      "id": "M-M2-Q03",
+      "section": "Math",
+      "module": 2,
+      "question_number": 3,
+      "type": "MC",
+      "category": "Systems of Equations",
+      "stimulus": "Solve the system: \\{ x − 5y = 0,  x + y = 18 \\}.",
+      "choices": { "A": "(15, 3)", "B": "(16, 2)", "C": "(17, 1)", "D": "(18, 0)" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M2-Q04",
+      "section": "Math",
+      "module": 2,
+      "question_number": 4,
+      "type": "MC",
+      "category": "Inequalities",
+      "stimulus": "Which system of inequalities must the point (8, 2) satisfy?",
+      "choices": {
+        "A": "x > 0, y > 0",
+        "B": "x < 0, y > 0",
+        "C": "x > 0, y < 0",
+        "D": "x < 0, y < 0"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "M-M2-Q05",
+      "section": "Math",
+      "module": 2,
+      "question_number": 5,
+      "type": "MC",
+      "category": "Function Notation",
+      "stimulus": "For (g(t)=7−3t), what is g(−4)?",
+      "choices": { "A": "−19", "B": "−5", "C": "19", "D": "23" },
+      "correct": "D"
+    },
+    {
+      "id": "M-M2-Q06",
+      "section": "Math",
+      "module": 2,
+      "question_number": 6,
+      "type": "MC",
+      "category": "Geometry – Angle Relationships",
+      "stimulus": "If two parallel lines are cut by a transversal creating one 48° angle, which is NOT a possible measure of another angle formed?",
+      "choices": { "A": "48°", "B": "132°", "C": "96°", "D": "84°" },
+      "correct": "D"
+    },
+    {
+      "id": "M-M2-Q07",
+      "section": "Math",
+      "module": 2,
+      "question_number": 7,
+      "type": "MC",
+      "category": "Quadratic Roots",
+      "stimulus": "What is the sum of the roots of $2x^2 − 5x + 7 = 0$?",
+      "choices": { "A": "−5", "B": "−2", "C": "2.5", "D": "5/2" },
+      "correct": "D"
+    },
+    {
+      "id": "M-M2-Q08",
+      "section": "Math",
+      "module": 2,
+      "question_number": 8,
+      "type": "MC",
+      "category": "Exponential Growth",
+      "stimulus": "A bacteria culture triples every 4 hours. If it starts with 200 cells, which expression gives the count after t hours?",
+      "choices": {
+        "A": "200·3^{4t}",
+        "B": "200·3^{t/4}",
+        "C": "200·(1.75)^t",
+        "D": "200·(3t)^4"
+      },
+      "correct": "B"
+    },
+    {
+      "id": "M-M2-Q09",
+      "section": "Math",
+      "module": 2,
+      "question_number": 9,
+      "type": "MC",
+      "category": "Geometry – Volume",
+      "stimulus": "A right circular cone has height 9 cm and base radius 4 cm. What is its volume?",
+      "choices": { "A": "48π cm³", "B": "64π cm³", "C": "96π cm³", "D": "144π cm³" },
+      "correct": "C"
+    },
+    {
+      "id": "M-M2-Q10",
+      "section": "Math",
+      "module": 2,
+      "question_number": 10,
+      "type": "MC",
+      "category": "Trigonometry",
+      "stimulus": "In right △JKL with right angle at J, $\\cos K = \\frac{15}{17}$. Which represents $\\sin L$?",
+      "choices": { "A": "$\\frac{8}{17}$", "B": "$\\frac{15}{17}$", "C": "$\\frac{15}{8}$", "D": "$\\frac{17}{15}$" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M2-Q11",
+      "section": "Math",
+      "module": 2,
+      "question_number": 11,
+      "type": "SPR",
+      "category": "Quadratic Optimization",
+      "stimulus": "The quadratic (f(x)=10x^2+3x−13x) attains its minimum at what x‑coordinate?",
+      "answer": -1.5
+    },
+    {
+      "id": "M-M2-Q12",
+      "section": "Math",
+      "module": 2,
+      "question_number": 12,
+      "type": "MC",
+      "category": "Radicals",
+      "stimulus": "Simplify \\(\\sqrt{98} − \\sqrt{50}\\).",
+      "choices": { "A": "2√2", "B": "2√3", "C": "7√2", "D": "4√2" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M2-Q13",
+      "section": "Math",
+      "module": 2,
+      "question_number": 13,
+      "type": "MC",
+      "category": "Complex Numbers",
+      "stimulus": "Which is equal to \\((3+2i)(3−2i)\\)?",
+      "choices": { "A": "5", "B": "9", "C": "13", "D": "17" },
+      "correct": "C"
+    },
+    {
+      "id": "M-M2-Q14",
+      "section": "Math",
+      "module": 2,
+      "question_number": 14,
+      "type": "MC",
+      "category": "Sequences",
+      "stimulus": "The nth term of a sequence is \\(a_n = 5n − 4\\). What is \\(a_7\\)?",
+      "choices": { "A": "31", "B": "33", "C": "35", "D": "39" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M2-Q15",
+      "section": "Math",
+      "module": 2,
+      "question_number": 15,
+      "type": "MC",
+      "category": "Probability",
+      "stimulus": "A fair die is rolled twice. What is the probability the sum is 7?",
+      "choices": { "A": "1/12", "B": "1/6", "C": "1/9", "D": "1/36" },
+      "correct": "B"
+    },
+    {
+      "id": "M-M2-Q16",
+      "section": "Math",
+      "module": 2,
+      "question_number": 16,
+      "type": "MC",
+      "category": "Coordinate Geometry",
+      "stimulus": "What is the distance between (−4,3) and (5,−1)?",
+      "choices": { "A": "5", "B": "9", "C": "√97", "D": "10" },
+      "correct": "C"
+    },
+    {
+      "id": "M-M2-Q17",
+      "section": "Math",
+      "module": 2,
+      "question_number": 17,
+      "type": "MC",
+      "category": "Logarithms",
+      "stimulus": "If $\\log_{10}(x) = 3$, what is $\\log_{10}(\\sqrt{x})$?",
+      "choices": { "A": "1.5", "B": "3", "C": "6", "D": "9" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M2-Q18",
+      "section": "Math",
+      "module": 2,
+      "question_number": 18,
+      "type": "MC",
+      "category": "Transformations",
+      "stimulus": "The graph of y = f(x) is translated 3 units right and 2 units down to form y = g(x). Which rule describes g?",
+      "choices": {
+        "A": "g(x)=f(x−3)−2",
+        "B": "g(x)=f(x+3)+2",
+        "C": "g(x)=f(x−2)−3",
+        "D": "g(x)=f(x+2)−3"
+      },
+      "correct": "A"
+    },
+    {
+      "id": "M-M2-Q19",
+      "section": "Math",
+      "module": 2,
+      "question_number": 19,
+      "type": "MC",
+      "category": "Function Vertices",
+      "stimulus": "For $f(x)=\\frac{1}{9}(x−7)^2+3$, what is the minimum y‑value of f?",
+      "choices": { "A": "−7", "B": "0", "C": "3", "D": "7" },
+      "correct": "C"
+    },
+    {
+      "id": "M-M2-Q20",
+      "section": "Math",
+      "module": 2,
+      "question_number": 20,
+      "type": "SPR",
+      "category": "Trig Ratios",
+      "stimulus": "In △JKL right‑angled at J, JL = 24 and JK = 7. What is \\(\\sin K\\)?",
+      "answer": "7/25"
+    },
+    {
+      "id": "M-M2-Q21",
+      "section": "Math",
+      "module": 2,
+      "question_number": 21,
+      "type": "SPR",
+      "category": "Quadratic Discriminant",
+      "stimulus": "Find the greatest integer b so that \\(x^2 − bx − 676 = 0\\) has no real roots.",
+      "answer": 51
+    },
+    {
+      "id": "M-M2-Q22",
+      "section": "Math",
+      "module": 2,
+      "question_number": 22,
+      "type": "MC",
+      "category": "Linear Systems – Solutions",
+      "stimulus": "How many solutions does the system consisting of the two shown lines and 4x + y = −16 have?",
+      "choices": { "A": "0", "B": "1", "C": "2", "D": "Infinitely many" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M2-Q23",
+      "section": "Math",
+      "module": 2,
+      "question_number": 23,
+      "type": "MC",
+      "category": "Data Analysis – Median/Range",
+      "stimulus": "Data set A has 15 ordered values with median 23, min 11, max 41. What is the range?",
+      "choices": { "A": "11", "B": "23", "C": "30", "D": "41" },
+      "correct": "C"
+    },
+    {
+      "id": "M-M2-Q24",
+      "section": "Math",
+      "module": 2,
+      "question_number": 24,
+      "type": "MC",
+      "category": "Piecewise Functions",
+      "stimulus": "A shipping company charges $5 for the first kg and $3 for each additional kg. Which function gives the cost C for a package of mass m kg (m ≥ 1)?",
+      "choices": {
+        "A": "C = 3m + 2",
+        "B": "C = 5m",
+        "C": "C = 5 + 3(m−1)",
+        "D": "C = 8m − 3"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "M-M2-Q25",
+      "section": "Math",
+      "module": 2,
+      "question_number": 25,
+      "type": "MC",
+      "category": "Polynomials",
+      "stimulus": "Which of the following is a factor of \\(x^3 − 4x^2 − 7x + 10\\)?",
+      "choices": { "A": "x − 2", "B": "x + 2", "C": "x − 5", "D": "x + 5" },
+      "correct": "A"
+    },
+    {
+      "id": "M-M2-Q26",
+      "section": "Math",
+      "module": 2,
+      "question_number": 26,
+      "type": "MC",
+      "category": "Circle Equations",
+      "stimulus": "Which is the equation of a circle centered at (−3, 4) with radius 6?",
+      "choices": {
+        "A": "(x+3)^2 + (y−4)^2 = 6",
+        "B": "(x−3)^2 + (y+4)^2 = 36",
+        "C": "(x+3)^2 + (y−4)^2 = 36",
+        "D": "(x−3)^2 + (y+4)^2 = 6"
+      },
+      "correct": "C"
+    },
+    {
+      "id": "M-M2-Q27",
+      "section": "Math",
+      "module": 2,
+      "question_number": 27,
+      "type": "SPR",
+      "category": "Rational Equations",
+      "stimulus": "Solve for k: \\(\\dfrac{3}{k+1} + 2 = 5\\).",
+      "answer": 0.5
+    }
+  ]
