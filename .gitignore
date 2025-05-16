@@ -29,3 +29,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python/venv/virtualenv
+venv/
+backend_venv/
+
+# PDF outputs and images
+question_images/
+sat_questions.pdf
+sat_answers.pdf
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# System files
+Thumbs.db
+.DS_Store
