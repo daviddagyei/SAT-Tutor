@@ -29,23 +29,21 @@ interface RawQuestion {
 }
 
 // Format a raw question from the API to our application format
-const formatQuestion = (question: RawQuestion): FormattedQuestion => {
-  const type = question.section.toLowerCase().includes('math') 
+const formatQuestion = (question: any): FormattedQuestion => {
+  // Map section to type
+  const type = question.section === 'Math' 
     ? 'math' 
-    : question.section.toLowerCase().includes('reading') 
+    : question.section === 'Reading and Writing' 
       ? 'reading' 
       : 'writing';
-  
-  // Generate a simple explanation for now (in a real app, you'd have real explanations)
-  const explanation = `This question tests your knowledge of ${question.category}.`;
   
   return {
     id: question.id,
     type,
-    content: question.stimulus,
+    content: question.content,
     choices: question.choices || {},
-    correctAnswer: question.correct || question.answer || 'A',
-    explanation,
+    correctAnswer: question.correctAnswer || 'A',
+    explanation: question.explanation || 'Detailed explanation would be provided here.',
     category: question.category,
   };
 };
@@ -53,22 +51,19 @@ const formatQuestion = (question: RawQuestion): FormattedQuestion => {
 // Service for handling practice-related API calls
 export const practiceService = {
   // Fetch SAT practice questions from the backend
-  async fetchSatQuestions(module?: string, questionType?: string) {
+  async fetchSatQuestions(module?: string, questionType?: string, section?: string) {
     try {
       // Build query parameters
       const queryParams = new URLSearchParams();
       if (module) queryParams.append('module', module);
       if (questionType) queryParams.append('question_type', questionType);
+      if (section) queryParams.append('section', section);
       
-      // Get current user session for authentication
-      const { data: { session } } = await supabase.auth.getSession();
-      
-      // Make request to backend
+      // Make request to backend (removed authentication for now)
       const response = await fetch(`${API_BASE_URL}/api/v1/practice/sat-questions?${queryParams.toString()}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${session?.access_token}`
         }
       });
       
@@ -76,7 +71,8 @@ export const practiceService = {
         throw new Error(`Error fetching questions: ${response.status}`);
       }
       
-      return await response.json();
+      const rawQuestions = await response.json();
+      return rawQuestions.map(formatQuestion);
     } catch (error) {
       console.error('Error fetching SAT questions:', error);
       throw error;
@@ -178,8 +174,8 @@ export const practiceService = {
   }
 };
 
-// React hook for using questions with local JSON data
-export const useInfiniteQuestions = () => {
+// React hook for using questions with backend API
+export const useBackendQuestions = () => {
   const [questions, setQuestions] = useState<FormattedQuestion[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -188,7 +184,7 @@ export const useInfiniteQuestions = () => {
     const fetchQuestions = async () => {
       try {
         setLoading(true);
-        const formattedQuestions = await practiceService.fetchLocalQuestions();
+        const formattedQuestions = await practiceService.fetchSatQuestions();
         setQuestions(formattedQuestions);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An unknown error occurred');
@@ -226,6 +222,7 @@ export const useInfiniteQuestions = () => {
   return {
     loading,
     error,
+    questions,
     getNextQuestion
   };
 };

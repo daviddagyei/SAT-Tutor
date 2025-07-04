@@ -14,7 +14,7 @@ import {
   PenTool
 } from 'lucide-react';
 import { useCourseStore } from '../../store/courseStore';
-import { useInfiniteQuestions, FormattedQuestion } from '../../lib/practiceService';
+import { useBackendQuestions, FormattedQuestion } from '../../lib/practiceService';
 
 type QuestionType = 'math' | 'reading' | 'writing';
 type AnswerChoice = 'A' | 'B' | 'C' | 'D';
@@ -430,7 +430,7 @@ export function PracticeQuestion() {
   
   // New state for infinite mode questions
   const [currentInfiniteQuestion, setCurrentInfiniteQuestion] = useState<FormattedQuestion | null>(null);
-  const { loading, error, getNextQuestion } = useInfiniteQuestions();
+  const { loading, error, questions, getNextQuestion } = useBackendQuestions();
 
   // Get the current question based on mode
   const currentQuestion = isInfiniteMode && currentInfiniteQuestion 
