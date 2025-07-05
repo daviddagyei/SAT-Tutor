@@ -1,0 +1,258 @@
+/* Math-specific CSS for better typography and rendering */
+
+/* MathJax styling overrides */
+.math-renderer {
+  line-height: 1.6;
+  font-family: 'STIX Two Math', 'Computer Modern', 'Times New Roman', serif;
+}
+
+.inline-math {
+  display: inline;
+  vertical-align: baseline;
+}
+
+.block-math {
+  display: block;
+  margin: 1rem 0;
+  text-align: left;
+  overflow-x: auto;
+}
+
+/* MathJax container styling */
+.MathJax {
+  outline: none;
+  font-family: 'STIX Two Math', serif !important;
+}
+
+.MathJax_Display {
+  margin: 1em 0 !important;
+  text-align: left !important;
+}
+
+/* Enhanced math typography */
+.math-content {
+  font-family: 'STIX Two Math', 'Computer Modern', 'Times New Roman', serif;
+  font-feature-settings: "liga" 1, "kern" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.math-content .fraction {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.math-content .fraction .numerator {
+  display: block;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  font-size: 0.9em;
+}
+
+.math-content .fraction .denominator {
+  display: block;
+  padding-top: 2px;
+  font-size: 0.9em;
+}
+
+.math-content .exponent {
+  vertical-align: super;
+  font-size: 0.7em;
+  line-height: 1;
+}
+
+.math-content .subscript {
+  vertical-align: sub;
+  font-size: 0.7em;
+  line-height: 1;
+}
+
+/* Function notation styling */
+.math-content .function {
+  font-style: italic;
+  margin-right: 0.1em;
+}
+
+.math-content .function-args {
+  font-style: normal;
+}
+
+/* Equation styling */
+.math-equation {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-family: 'STIX Two Math', 'Computer Modern', 'Times New Roman', serif;
+  overflow-x: auto;
+}
+
+.math-equation .equals {
+  margin: 0 0.5em;
+  font-weight: normal;
+}
+
+/* Mathematical operators */
+.math-operator {
+  margin: 0 0.3em;
+  font-weight: normal;
+}
+
+.math-operator.multiplication::before {
+  content: '×';
+}
+
+.math-operator.division::before {
+  content: '÷';
+}
+
+.math-operator.plus-minus::before {
+  content: '±';
+}
+
+.math-operator.infinity::before {
+  content: '∞';
+}
+
+.math-operator.pi::before {
+  content: 'π';
+}
+
+/* Parentheses and brackets */
+.math-content .parentheses,
+.math-content .brackets,
+.math-content .braces {
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+/* Square root styling */
+.math-content .sqrt {
+  position: relative;
+  display: inline-block;
+}
+
+.math-content .sqrt::before {
+  content: '√';
+  font-size: 1.2em;
+  vertical-align: top;
+}
+
+.math-content .sqrt .radicand {
+  border-top: 1px solid currentColor;
+  padding: 0 0.2em;
+}
+
+/* Vector and matrix notation */
+.math-content .vector {
+  font-weight: bold;
+}
+
+.math-content .matrix {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Coordinate notation */
+.math-content .coordinates {
+  font-family: inherit;
+}
+
+.math-content .coordinates .coordinate {
+  margin: 0 0.1em;
+}
+
+/* Angle notation */
+.math-content .angle {
+  position: relative;
+}
+
+.math-content .degree::after {
+  content: '°';
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+/* Number formatting */
+.math-content .number {
+  font-feature-settings: "tnum" 1;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Variable styling */
+.math-content .variable {
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* Constants */
+.math-content .constant {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Question-specific math styling */
+.question-math {
+  margin: 0.5rem 0;
+  padding: 0.25rem 0;
+}
+
+.choice-math {
+  display: inline-block;
+  margin: 0.1rem 0;
+}
+
+/* Responsive math scaling */
+@media (max-width: 768px) {
+  .math-renderer {
+    font-size: 0.95em;
+  }
+  
+  .math-equation {
+    padding: 0.75rem;
+    margin: 0.75rem 0;
+  }
+  
+  .MathJax_Display {
+    margin: 0.5em 0 !important;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .math-equation {
+    background: #1f2937;
+    border-color: #374151;
+    color: #f9fafb;
+  }
+  
+  .math-content .fraction .numerator {
+    border-bottom-color: currentColor;
+  }
+  
+  .math-content .sqrt .radicand {
+    border-top-color: currentColor;
+  }
+}
+
+/* Accessibility improvements */
+.math-renderer:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Print styles */
+@media print {
+  .math-renderer {
+    color: #000;
+    background: transparent;
+  }
+  
+  .math-equation {
+    background: transparent;
+    border: 1px solid #000;
+  }
+}

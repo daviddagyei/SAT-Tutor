@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { useCourseStore } from '../../store/courseStore';
 import { useBackendQuestions, FormattedQuestion } from '../../lib/practiceService';
+import '../Math/math.css';
 
 type QuestionType = 'math' | 'reading' | 'writing';
 type AnswerChoice = 'A' | 'B' | 'C' | 'D';
@@ -168,7 +169,9 @@ function AnswerChoice({
         }`}>
           {label}
         </span>
-        <span className="text-left text-gray-800">{content}</span>
+        <span className="text-left text-gray-800 choice-math">
+          <SmartContentRenderer content={content} />
+        </span>
       </div>
     </button>
   );
@@ -415,6 +418,76 @@ function GameModeStats({
   );
 }
 
+// Smart content renderer that selectively applies math formatting
+const SmartContentRenderer: React.FC<{ content: string; className?: string }> = ({ 
+  content, 
+  className = '' 
+}) => {
+  // Instead of treating entire text as math or not-math, 
+  // we'll selectively format only specific math patterns
+  const processedContent = React.useMemo(() => {
+    if (!content) return content;
+    
+    // Split content into segments and identify which ones need math formatting
+    // This is a more conservative approach that only formats clear math expressions
+    let processedText = content;
+    
+    // Only apply math formatting to very specific patterns
+    // Function notation - f(x), g(x), h(x)
+    processedText = processedText.replace(/\bf\s*\(\s*x\s*\)/gi, '<em>f</em>(<em>x</em>)');
+    processedText = processedText.replace(/\bg\s*\(\s*x\s*\)/gi, '<em>g</em>(<em>x</em>)');
+    processedText = processedText.replace(/\bh\s*\(\s*x\s*\)/gi, '<em>h</em>(<em>x</em>)');
+    
+    // Clear fractions (only with slash)
+    processedText = processedText.replace(/\b(\d{1,3})\s*\/\s*(\d{1,3})\b/g, '<span class="fraction"><sup>$1</sup>⁄<sub>$2</sub></span>');
+    
+    // Mathematical exponents - be very careful to avoid years and book titles
+    // Only format if it's clearly a mathematical context
+    processedText = processedText.replace(/([a-z])\^(\d+)/g, '$1<sup>$2</sup>'); // variables like x^2
+    processedText = processedText.replace(/([a-z])²/g, '$1<sup>2</sup>');
+    processedText = processedText.replace(/([a-z])³/g, '$1<sup>3</sup>');
+    processedText = processedText.replace(/([a-z])⁴/g, '$1<sup>4</sup>');
+    
+    // Mathematical expressions with parentheses
+    processedText = processedText.replace(/\(([a-z])\^(\d+)\)/g, '(<em>$1</em><sup>$2</sup>)');
+    
+    // Mathematical operators
+    processedText = processedText.replace(/\s*×\s*/g, ' × ');
+    processedText = processedText.replace(/\s*÷\s*/g, ' ÷ ');
+    processedText = processedText.replace(/\s*±\s*/g, ' ± ');
+    processedText = processedText.replace(/\s*≤\s*/g, ' ≤ ');
+    processedText = processedText.replace(/\s*≥\s*/g, ' ≥ ');
+    processedText = processedText.replace(/\s*≠\s*/g, ' ≠ ');
+    
+    // Square roots
+    processedText = processedText.replace(/√\(([^)]+)\)/g, '<span class="sqrt">√<span class="sqrt-content">$1</span></span>');
+    processedText = processedText.replace(/√([a-z]+)/g, '<span class="sqrt">√<span class="sqrt-content">$1</span></span>');
+    
+    // Mathematical constants
+    processedText = processedText.replace(/\bπ\b/g, '<em>π</em>');
+    processedText = processedText.replace(/\b∞\b/g, '<em>∞</em>');
+    
+    // Mathematical variables in equations (be conservative)
+    processedText = processedText.replace(/\b([a-z])\s*=\s*(\d+)/g, '<em>$1</em> = $2');
+    processedText = processedText.replace(/(\d+)\s*([a-z])\s*([+\-=])/g, '$1<em>$2</em> $3');
+    
+    // Coordinate pairs
+    processedText = processedText.replace(/\((-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)\)/g, '($1, $2)');
+    
+    // Clean up extra spaces
+    processedText = processedText.replace(/\s+/g, ' ').trim();
+    
+    return processedText;
+  }, [content]);
+
+  return (
+    <span 
+      className={`${className} whitespace-pre-wrap math-content`}
+      dangerouslySetInnerHTML={{ __html: processedContent }}
+    />
+  );
+};
+
 export function PracticeQuestion() {
   const [mode, setMode] = useState<string | null>(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -430,7 +503,7 @@ export function PracticeQuestion() {
   
   // New state for infinite mode questions
   const [currentInfiniteQuestion, setCurrentInfiniteQuestion] = useState<FormattedQuestion | null>(null);
-  const { loading, error, questions, getNextQuestion } = useBackendQuestions();
+  const { loading, error, getNextQuestion } = useBackendQuestions();
 
   // Get the current question based on mode
   const currentQuestion = isInfiniteMode && currentInfiniteQuestion 
@@ -625,7 +698,9 @@ export function PracticeQuestion() {
 
       <div className="bg-white rounded-xl shadow-sm p-8">
         <div className="prose max-w-none mb-8">
-          <p className="text-lg text-gray-800 whitespace-pre-wrap">{currentQuestion.content}</p>
+          <div className="text-lg text-gray-800 question-math">
+            <SmartContentRenderer content={currentQuestion.content} />
+          </div>
         </div>
 
         <div className="space-y-4">
@@ -649,7 +724,9 @@ export function PracticeQuestion() {
               <HelpCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-medium text-green-900">Explanation</h3>
-                <p className="mt-1 text-green-700 whitespace-pre-wrap">{currentQuestion.explanation}</p>
+                <div className="mt-1 text-green-700">
+                  <SmartContentRenderer content={currentQuestion.explanation} />
+                </div>
               </div>
             </div>
           </div>

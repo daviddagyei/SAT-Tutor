@@ -18,6 +18,49 @@ load_dotenv()
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# Math formatting preprocessing patterns
+MATH_FORMATTING_PATTERNS = [
+    # Fraction repairs - look for separated numerator and denominator
+    (r'(\d+)([a-zA-Z]*)\s*=\s*(\d+)\s*([a-zA-Z\+\-\(\)]*)\s*(\d+)([a-zA-Z\+\-\(\)]*)', r'\1\2 = \3\4/\5\6'),
+    (r'(\d+)([a-zA-Z]*)\s*/\s*(\d+)([a-zA-Z]*)\s*=\s*(\d+)\s*([a-zA-Z\+\-\(\)]*)\s*(\d+)([a-zA-Z\+\-\(\)]*)', r'\1\2/\3\4 = \5\6/\7\8'),
+    
+    # Square root repairs - look for separated radical expressions
+    (r'(\d+)\s*([a-zA-Z\+\-\(\)]*)\s*√\s*\(\s*([a-zA-Z\+\-\d\s\(\)]+)\s*\)', r'\1\2√(\3)'),
+    (r'(\d+)\s*([a-zA-Z\+\-\(\)]*)\s*√\s*([a-zA-Z\+\-\d]+)', r'\1\2√\3'),
+    (r'=\s*(\d+)\s*([a-zA-Z\+\-\(\)]*)\s*√\s*([a-zA-Z\+\-\d\s\(\)]+)', r'= \1\2√\3'),
+    
+    # Exponent repairs - look for separated base and exponent
+    (r'([a-zA-Z\d\)]+)\s*\^\s*(\d+)', r'\1^\2'),
+    (r'([a-zA-Z\d\)]+)\s*\*\*\s*(\d+)', r'\1^\2'),
+    (r'([a-zA-Z\d\)]+)\s*(\d+)\s*([a-zA-Z\+\-\(\)]*)', r'\1^\2\3'),
+    
+    # Equation repairs - fix broken equations
+    (r'(\w+)\s*=\s*(\d+)\s*([a-zA-Z\+\-\(\)]*)\s*(\d+)', r'\1 = \2\3 + \4'),
+    (r'(\w+)\s*=\s*(\d+)\s*([a-zA-Z\+\-\(\)]*)\s*([a-zA-Z\+\-\(\)]+)', r'\1 = \2\3\4'),
+    
+    # Fix scattered mathematical expressions
+    (r'(\d+)\s*x\s*/\s*(\d+)\s*y', r'\1x/\2y'),
+    (r'(\d+)\s*x\s*=\s*(\d+)\s*([a-zA-Z\+\-\(\)]*)\s*(\d+)\s*([a-zA-Z\+\-\(\)]*)', r'\1x = \2\3\4\5'),
+    
+    # Fix common math symbols that get separated
+    (r'(\d+)\s*\+\s*(\d+)', r'\1 + \2'),
+    (r'(\d+)\s*\-\s*(\d+)', r'\1 - \2'),
+    (r'(\d+)\s*\*\s*(\d+)', r'\1 × \2'),
+    (r'(\d+)\s*x\s*(\d+)', r'\1x\2'),
+    
+    # Fix parentheses that got separated
+    (r'(\w+)\s*\(\s*([a-zA-Z\d\+\-\s]+)\s*\)', r'\1(\2)'),
+    
+    # Fix inequalities
+    (r'(\w+)\s*≤\s*(\d+)', r'\1 ≤ \2'),
+    (r'(\w+)\s*≥\s*(\d+)', r'\1 ≥ \2'),
+    (r'(\w+)\s*<\s*(\d+)', r'\1 < \2'),
+    (r'(\w+)\s*>\s*(\d+)', r'\1 > \2'),
+    
+    # Fix absolute value notation
+    (r'\|\s*([a-zA-Z\d\+\-\s]+)\s*\|', r'|\1|'),
+]
+
 # Rate limiting configuration
 RATE_LIMIT_DELAY = 4.5  # seconds between requests (15 RPM = 4 second intervals, adding buffer)
 last_request_time = 0
@@ -37,6 +80,174 @@ class QARecord(BaseModel):
     class Config:
         # Allow the model to handle string inputs for choices and convert them
         str_strip_whitespace = True
+
+def preprocess_math_formatting(text: str) -> str:
+    """
+    Preprocesses text to fix common math formatting issues from PDF extraction.
+    
+    This function attempts to repair mathematical expressions that get corrupted
+    during PDF text extraction, such as:
+    - Fractions that get separated (e.g., "14x = 2 w + 19 7y" → "14x = 2w + 19/7y")
+    - Square roots that get broken (e.g., "2 √ ( w + 19 )" → "2√(w + 19)")
+    - Exponents that get separated (e.g., "x 2" → "x²")
+    - Equations that get fragmented
+    
+    Args:
+        text (str): The raw text from PDF extraction
+        
+    Returns:
+        str: Text with repaired mathematical formatting
+    """
+    if not text:
+        return text
+    
+    # Create a copy to work with
+    processed_text = text
+    
+    # Apply each pattern repair
+    for pattern, replacement in MATH_FORMATTING_PATTERNS:
+        try:
+            processed_text = re.sub(pattern, replacement, processed_text)
+        except re.error as e:
+            logging.warning(f"Pattern matching error: {e}")
+            continue
+    
+    # Additional manual fixes for common SAT math patterns
+    processed_text = fix_common_sat_math_patterns(processed_text)
+    
+    # Fix year patterns that get incorrectly formatted as exponents
+    processed_text = fix_year_patterns(processed_text)
+    
+    return processed_text
+
+def fix_common_sat_math_patterns(text: str) -> str:
+    """
+    Fixes specific common SAT math patterns that appear in corrupted form.
+    
+    Args:
+        text (str): Text to process
+        
+    Returns:
+        str: Text with fixed SAT math patterns
+    """
+    # Common SAT math expression fixes
+    fixes = [
+        # Fix "14x = 2 w + 19 7y" type patterns
+        (r'(\d+)([a-zA-Z])\s*=\s*(\d+)\s*([a-zA-Z])\s*\+\s*(\d+)\s*(\d+)([a-zA-Z])', r'\1\2 = \3\4 + \5/\6\7'),
+        (r'(\d+)([a-zA-Z])\s*=\s*(\d+)\s*([a-zA-Z])\s*\-\s*(\d+)\s*(\d+)([a-zA-Z])', r'\1\2 = \3\4 - \5/\6\7'),
+        
+        # Fix "2 √ ( w + 19 )" type patterns
+        (r'(\d+)\s*√\s*\(\s*([a-zA-Z\d\s\+\-]+)\s*\)', r'\1√(\2)'),
+        (r'(\d+)\s*√\s*([a-zA-Z\d]+)', r'\1√\2'),
+        
+        # Fix "x 2" → "x²" type patterns
+        (r'([a-zA-Z])\s*2\b', r'\1²'),
+        (r'([a-zA-Z])\s*3\b', r'\1³'),
+        (r'([a-zA-Z])\s*4\b', r'\1⁴'),
+        
+        # Fix polynomial expressions
+        (r'([a-zA-Z])\s*\^\s*(\d+)', r'\1^\2'),
+        (r'([a-zA-Z])\s*\*\*\s*(\d+)', r'\1^\2'),
+        
+        # Fix fractions in word problems
+        (r'(\d+)\s*over\s*(\d+)', r'\1/\2'),
+        (r'(\d+)\s*divided\s*by\s*(\d+)', r'\1/\2'),
+        
+        # Fix percentages
+        (r'(\d+)\s*percent', r'\1%'),
+        (r'(\d+)\s*%', r'\1%'),
+        
+        # Fix mathematical operators
+        (r'\s*×\s*', ' × '),
+        (r'\s*÷\s*', ' ÷ '),
+        (r'\s*±\s*', ' ± '),
+        
+        # Fix angle notation
+        (r'(\d+)\s*degrees?', r'\1°'),
+        (r'(\d+)\s*°', r'\1°'),
+        
+        # Fix coordinate notation
+        (r'\(\s*([a-zA-Z\d\+\-]+)\s*,\s*([a-zA-Z\d\+\-]+)\s*\)', r'(\1, \2)'),
+        
+        # Fix interval notation
+        (r'\[\s*([a-zA-Z\d\+\-]+)\s*,\s*([a-zA-Z\d\+\-]+)\s*\]', r'[\1, \2]'),
+        (r'\(\s*([a-zA-Z\d\+\-]+)\s*,\s*([a-zA-Z\d\+\-]+)\s*\)', r'(\1, \2)'),
+        
+        # Fix pi notation
+        (r'\bpi\b', 'π'),
+        (r'\bPi\b', 'π'),
+        
+        # Fix infinity
+        (r'\binfinity\b', '∞'),
+        (r'\bINFINITY\b', '∞'),
+        
+        # Fix common function notation
+        (r'\bsin\s*\(\s*([a-zA-Z\d\+\-]+)\s*\)', r'sin(\1)'),
+        (r'\bcos\s*\(\s*([a-zA-Z\d\+\-]+)\s*\)', r'cos(\1)'),
+        (r'\btan\s*\(\s*([a-zA-Z\d\+\-]+)\s*\)', r'tan(\1)'),
+        (r'\blog\s*\(\s*([a-zA-Z\d\+\-]+)\s*\)', r'log(\1)'),
+        (r'\bln\s*\(\s*([a-zA-Z\d\+\-]+)\s*\)', r'ln(\1)'),
+    ]
+    
+    for pattern, replacement in fixes:
+        try:
+            text = re.sub(pattern, replacement, text)
+        except re.error as e:
+            logging.warning(f"SAT pattern fix error: {e}")
+            continue
+    
+    return text
+
+def fix_year_patterns(text: str) -> str:
+    """
+    Fixes year patterns that get incorrectly formatted as exponents.
+    
+    For example, "a^2020exhibition" should be "a 2020 exhibition".
+    This fixes cases where years get attached to preceding text with caret symbols.
+    
+    Args:
+        text (str): Text to process
+        
+    Returns:
+        str: Text with fixed year patterns
+    """
+    if not text:
+        return text
+    
+    # Fix patterns like "a^2020exhibition" -> "a 2020 exhibition"
+    # Look for years (1900-2099) that are incorrectly formatted as exponents
+    year_fixes = [
+        # Fix "word^year" patterns
+        (r'([a-zA-Z])\^(19\d{2}|20\d{2})([a-zA-Z])', r'\1 \2 \3'),
+        (r'([a-zA-Z])\^(19\d{2}|20\d{2})\b', r'\1 \2'),
+        
+        # Fix "word year" patterns where year got attached without space
+        (r'([a-zA-Z])(19\d{2}|20\d{2})([a-zA-Z])', r'\1 \2 \3'),
+        
+        # Fix patterns like "from^1970s" -> "from 1970s"
+        (r'([a-zA-Z])\^(19\d{2}|20\d{2})s\b', r'\1 \2s'),
+        
+        # Fix patterns like "in^1920," -> "in 1920,"
+        (r'([a-zA-Z])\^(19\d{2}|20\d{2})([,\.\!\?\;\:])', r'\1 \2\3'),
+        
+        # Fix patterns like "the^1970s" -> "the 1970s"
+        (r'(the|from|in|since|after|before|during|by)\^(19\d{2}|20\d{2})s?\b', r'\1 \2s'),
+        
+        # Fix novel/book titles like "Babel-1^7" -> "Babel-17"
+        (r'([A-Z][a-z]+)\-(\d+)\^(\d+)', r'\1-\2\3'),
+        
+        # Fix other title patterns like "Book^1990" -> "Book 1990"
+        (r'([A-Z][a-zA-Z]+)\^(19\d{2}|20\d{2})', r'\1 \2'),
+    ]
+    
+    for pattern, replacement in year_fixes:
+        try:
+            text = re.sub(pattern, replacement, text)
+        except re.error as e:
+            logging.warning(f"Year pattern fix error: {e}")
+            continue
+    
+    return text
 
 # 2. Graph State
 class GraphState(TypedDict):
@@ -366,6 +577,7 @@ def llm_extract(state: GraphState):
     """
     Uses LLM reasoning to parse and extract structured data from chunks.
     Includes rate limiting and robust parsing with fallback mechanisms.
+    Now includes math formatting preprocessing and enhanced prompting.
     """
     global last_request_time
     
@@ -380,12 +592,19 @@ def llm_extract(state: GraphState):
     chunk = state["chunks"][state["current_chunk_index"]]
     chunk_info = f"chunk {state['current_chunk_index'] + 1}/{len(state['chunks'])}"
     
+    # PREPROCESSING: Fix math formatting issues before sending to LLM
+    original_chunk_length = len(chunk)
+    preprocessed_chunk = preprocess_math_formatting(chunk)
+    
+    if len(preprocessed_chunk) != original_chunk_length:
+        logging.info(f"Math preprocessing applied to {chunk_info}: {original_chunk_length} → {len(preprocessed_chunk)} chars")
+    
     # Calculate progress and estimated time remaining
     progress_percent = ((state["current_chunk_index"] + 1) / len(state["chunks"])) * 100
     remaining_chunks = len(state["chunks"]) - state["current_chunk_index"] - 1
     estimated_time_remaining = (remaining_chunks * RATE_LIMIT_DELAY) / 60
     
-    logging.info(f"Processing {chunk_info} ({progress_percent:.1f}%) - ETA: {estimated_time_remaining:.1f} min - Length: {len(chunk)} chars")
+    logging.info(f"Processing {chunk_info} ({progress_percent:.1f}%) - ETA: {estimated_time_remaining:.1f} min - Length: {len(preprocessed_chunk)} chars")
     
     # Update the request time
     last_request_time = time.time()
@@ -397,7 +616,7 @@ def llm_extract(state: GraphState):
         # Generate a unique ID for this chunk
         unique_id = f"SAT-Q{state['current_chunk_index'] + 1:03d}"
         
-        # Create a more specific prompt with math formatting awareness
+        # Create an enhanced prompt with comprehensive math formatting instructions
         prompt = f"""You are an expert at extracting structured data from SAT questions found in PDF text.
 
 Your task is to identify a complete SAT question in the given text chunk and extract it as structured JSON.
@@ -409,15 +628,44 @@ IMPORTANT RULES:
 4. Never return choices as a string - always as an object or null
 5. Extract the actual question number from the text, not just "1"
 6. Include all relevant context in the stimulus field
-7. For math problems, preserve mathematical notation as plain text (e.g., "x^2", "√5", "π")
-8. Handle special characters by using plain text equivalents
-9. Preserve line breaks and formatting within the stimulus and choices
+7. Handle special characters by using plain text equivalents
+8. Preserve line breaks and formatting within the stimulus and choices
 
-MATH FORMATTING GUIDELINES:
-- Use plain text for mathematical expressions: x^2, √5, π, ∞, ≤, ≥, ≠
-- Preserve fractions as text: 1/2, 3/4, (x+1)/(x-1)
-- Keep equations readable: 2x + 3 = 7, y = mx + b
-- Maintain spacing and structure for readability
+CRITICAL MATH FORMATTING GUIDELINES:
+The input text may contain corrupted mathematical expressions from PDF extraction. Your job is to reconstruct the proper mathematical notation:
+
+1. **Fractions**: Look for patterns like "14x = 2 w + 19 7y" and reconstruct as "14x = 2w + 19/7y"
+   - Scattered fractions: "a b c" → "a/b × c" or "a + b/c" (use context)
+   - Denominators: "over", "divided by" → "/"
+
+2. **Square Roots**: Look for patterns like "2 √ ( w + 19 )" and reconstruct as "2√(w + 19)"
+   - Scattered roots: "a √ b" → "a√b"
+   - Root expressions: "square root of" → "√"
+
+3. **Exponents**: Look for patterns like "x 2" and determine if it means "x²" or "x × 2"
+   - Superscripts: "x^2", "x²", "x to the power of 2" → "x²"
+   - Use context to distinguish exponents from multiplication
+
+4. **Equations**: Reconstruct broken equations
+   - "a = b c d" might mean "a = b + c/d" or "a = bcd" (use mathematical context)
+   - Look for mathematical relationships and operators
+
+5. **Mathematical Symbols**: Use appropriate Unicode or text equivalents
+   - Use: π, ∞, ≤, ≥, ≠, ±, ×, ÷, √, ², ³, °
+   - Functions: sin(x), cos(x), log(x), ln(x)
+   - Coordinates: (x, y), intervals: [a, b], (a, b)
+
+6. **Context Clues**: Use the surrounding text to determine the correct mathematical meaning
+   - If it's a word problem, consider what makes mathematical sense
+   - If it's an equation, ensure both sides are balanced
+   - If it's a formula, ensure it follows mathematical conventions
+
+EXAMPLES OF MATH RECONSTRUCTION:
+- "14x = 2 w + 19 7y" → "14x = 2w + 19/7y"
+- "2 √ ( w + 19 )" → "2√(w + 19)"
+- "x 2 + 3x" → "x² + 3x"
+- "a over b plus c" → "a/b + c"
+- "sin 30 degrees" → "sin(30°)"
 
 Extract the following information and return ONLY valid JSON:
 {{
@@ -427,13 +675,26 @@ Extract the following information and return ONLY valid JSON:
   "section": "<string>",
   "type": "MC",
   "category": "<string or null>",
-  "stimulus": "<complete question text or null>",
-  "choices": {{"A": "text", "B": "text", "C": "text", "D": "text"}} or null,
+  "stimulus": "<complete question text with corrected math formatting or null>",
+  "choices": {{"A": "text with corrected math", "B": "text with corrected math", "C": "text with corrected math", "D": "text with corrected math"}} or null,
   "correct": null
 }}
 
 Examples of valid responses:
-1. Complete question:
+1. Math question with corrected formatting:
+{{
+  "id": "{unique_id}",
+  "module": 1,
+  "question_number": 22,
+  "section": "Math",
+  "type": "MC",
+  "category": "Algebra",
+  "stimulus": "If 14x/7y = 2√(w + 19), what is the value of x in terms of w and y?",
+  "choices": {{"A": "x = y√(w + 19)/7", "B": "x = 2y√(w + 19)", "C": "x = y√(w + 19)", "D": "x = 7y√(w + 19)/2"}},
+  "correct": null
+}}
+
+2. Reading question example:
 {{
   "id": "{unique_id}",
   "module": 1,
@@ -443,19 +704,6 @@ Examples of valid responses:
   "category": "Craft and Structure",
   "stimulus": "The author uses the word 'resilient' in line 12 primarily to...",
   "choices": {{"A": "emphasize the durability of the material", "B": "highlight the adaptive nature of the system", "C": "contrast with earlier descriptions", "D": "introduce a new concept"}},
-  "correct": null
-}}
-
-2. Math question example:
-{{
-  "id": "{unique_id}",
-  "module": 1,
-  "question_number": 22,
-  "section": "Math",
-  "type": "MC",
-  "category": null,
-  "stimulus": "If 2x + 3 = 11, what is the value of x?",
-  "choices": {{"A": "2", "B": "4", "C": "6", "D": "8"}},
   "correct": null
 }}
 
@@ -472,12 +720,12 @@ Examples of valid responses:
   "correct": null
 }}
 
-Text to extract from:
-{chunk}
+Text to extract from (may contain corrupted math formatting):
+{preprocessed_chunk}
 
 Return ONLY the JSON object, no other text:"""
         
-        # Invoke the LLM with the prompt
+        # Invoke the LLM with the enhanced prompt
         response = llm.invoke(prompt)
         
         # Parse the response manually
@@ -500,7 +748,7 @@ Return ONLY the JSON object, no other text:"""
                 # Create QARecord from the cleaned dictionary
                 record = QARecord(**record_dict)
                 
-                # Try to extract actual question number from the chunk
+                # Try to extract actual question number from the original chunk
                 actual_question_number = extract_question_number(chunk)
                 if actual_question_number:
                     record.question_number = actual_question_number
@@ -512,7 +760,13 @@ Return ONLY the JSON object, no other text:"""
                 
                 state["parsed"].append(record)
                 state["parsing_status"] = "success"
-                logging.info(f"Successfully extracted question: {record.id} (Q{record.question_number})")
+                
+                # Log successful extraction with math formatting note
+                if "√" in str(record.stimulus) or "²" in str(record.stimulus) or "/" in str(record.stimulus):
+                    logging.info(f"Successfully extracted question with math formatting: {record.id} (Q{record.question_number})")
+                else:
+                    logging.info(f"Successfully extracted question: {record.id} (Q{record.question_number})")
+                
                 return state
                 
             except json.JSONDecodeError as e:
